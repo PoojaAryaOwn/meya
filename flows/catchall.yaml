@@ -1,0 +1,21 @@
+triggers:
+  - type: meya.catchall
+name: catchall
+states:
+    pass_info_to_component:
+        component: keywordsfilter
+        output: '{{ flow.value }}'
+        scope: flow
+        transitions:
+            exit: thank_you
+            no_action: no_action
+            start: start
+            not_found: catchall_flow
+    catchall_flow:
+        flow: catchall_not_found
+    thank_you:
+        flow: exit
+    no_action:
+        action: next
+    start:
+        flow: main

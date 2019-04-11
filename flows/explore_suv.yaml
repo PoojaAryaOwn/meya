@@ -1,0 +1,16 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: explore suv
+name: explore_suv
+states:
+    first_state:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.explore_suv.msg_suggest_or_select }}'
+            output: button_click
+            buttons:
+              - text: '{{ cms.explore_suv.opt_suggest }}'
+                flow: which_suv
+              - text: '{{ cms.explore_suv.opt_select }}'
+                flow: explore_suv_crossover

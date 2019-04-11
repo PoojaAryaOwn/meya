@@ -1,0 +1,10 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: start_unsure
+name: start_unsure
+states:
+  no_state:
+    component: meya.text
+    properties:
+      text: 'If you change your mind, you can view my chat options anytime by typing "Menu".'

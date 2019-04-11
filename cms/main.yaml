@@ -1,0 +1,98 @@
+-   io: output
+    key: btn_book_test_drive
+    language: ar
+    tag: ''
+    type: string
+    value: احجز تجربة قيادة
+-   io: output
+    key: btn_book_test_drive
+    language: en
+    tag: ''
+    type: string
+    value: Book a Test-Drive
+-   io: output
+    key: btn_explore_car
+    language: ar
+    tag: ''
+    type: string
+    value: اكتشاف السيارة
+-   io: output
+    key: btn_explore_car
+    language: en
+    tag: ''
+    type: string
+    value: Explore car
+-   io: output
+    key: btn_learn_more
+    language: en
+    tag: ''
+    type: string
+    value: Learn more
+-   io: output
+    key: btn_no
+    language: ar
+    tag: ''
+    type: string
+    value: لا
+-   io: output
+    key: btn_no
+    language: en
+    tag: ''
+    type: string
+    value: 'No'
+-   io: output
+    key: btn_select
+    language: ar
+    tag: ''
+    type: string
+    value: اختار
+-   io: output
+    key: btn_select
+    language: en
+    tag: ''
+    type: string
+    value: Select
+-   io: output
+    key: btn_visit_website
+    language: ar
+    tag: ''
+    type: string
+    value: زيارة الموقع
+-   io: output
+    key: btn_visit_website
+    language: en
+    tag: ''
+    type: string
+    value: Visit Website
+-   io: output
+    key: btn_yes
+    language: ar
+    tag: ''
+    type: string
+    value: نعم
+-   io: output
+    key: btn_yes
+    language: en
+    tag: ''
+    type: string
+    value: 'Yes'
+-   io: output
+    key: lead_success
+    language: en
+    tag: ''
+    type: string
+    value: Thank you for booking a test drive {{ user.first_name }}, there’s only
+        one thing left to do; get this show on the road!
+-   io: output
+    key: lead_success
+    language: en
+    tag: ''
+    type: string
+    value: Thank you for booking a test drive {{ user.first_name }}, there’s only
+        one thing left to do; get this show on the road!
+-   io: output
+    key: view
+    language: en
+    tag: ''
+    type: string
+    value: View

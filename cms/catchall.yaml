@@ -1,0 +1,62 @@
+-   io: output
+    key: msg_introduction1
+    language: ar
+    tag: ''
+    type: string
+    value: عفوًا، لم أفهم قصدك. هل تود العودة إلى القائمة الرئيسة؟
+-   io: output
+    key: msg_introduction1
+    language: en
+    tag: ''
+    type: string
+    value: Sorry, I did not understand what you meant.
+-   io: output
+    key: msg_introduction2
+    language: ar
+    tag: ''
+    type: string
+    value: مع أني عقل مرسيدس-بنز الخارق، إلا أني للأسف لم أفهم قصدك.
+-   io: output
+    key: msg_introduction2
+    language: en
+    tag: ''
+    type: string
+    value: I may be an all knowing Mercedes-Benz mastermind, but I seem to have misunderstood
+        what you’re trying to say.
+-   io: output
+    key: msg_introduction3
+    language: ar
+    tag: ''
+    type: string
+    value: يبدو أننا اصطدمنا بمطب صناعي على الطريق! فأنا لم أفهم قصدك!
+-   io: output
+    key: msg_introduction3
+    language: en
+    tag: ''
+    type: string
+    value: It seems we’ve hit a bit of a speedbump, I’m not entirely what you’re trying
+        to say.
+-   io: output
+    key: msg_return
+    language: ar
+    tag: ''
+    type: string
+    value: فهل ترغب بالعودة للقائمة الرئيسية؟
+-   io: output
+    key: msg_return
+    language: en
+    tag: ''
+    type: string
+    value: Would you like to return to the main menu?
+-   io: output
+    key: msg_type_human
+    language: ar
+    tag: ''
+    type: string
+    value: أدخل كلمة "إنسان"، في أي وقت، وسأحولك لأحد أعضاء الفريق.
+-   io: output
+    key: msg_type_human
+    language: en
+    tag: ''
+    type: string
+    value: You can type "human" at any time to speak to someone from our team.

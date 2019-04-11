@@ -1,0 +1,23 @@
+name: recommend_dreamcar_slc
+states:
+    recommend_dreamcar_slc_text:
+        component: meya.text
+        properties:
+            text: '{{ cms.which_dreamcar.recommend_slc_msg }}'
+    recommend_dreamcar_slc_card:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: SLC
+                # item_url: '{{ cms.links_website_mb.road_cab_slc }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/slc_roadster.jpg
+                buttons:
+                  - text: '{{ cms.general.take_a_tour }}'
+                    url: '{{ cms.links_canvas.slc_200 }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.visit_website }}'
+                    url: '{{ cms.links_website_mb.road_cab_slc }}'
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry

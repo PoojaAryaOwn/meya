@@ -1,0 +1,18 @@
+-   io: output
+    key: title_100_meter_road
+    language: ar
+    tag: ''
+    type: string
+    value: شارع 100 متر
+-   io: output
+    key: title_100_meter_road
+    language: en
+    tag: ''
+    type: string
+    value: 100 Meter Road
+-   io: output
+    key: title_main_branch
+    language: en
+    tag: ''
+    type: string
+    value: Sulaimaniya

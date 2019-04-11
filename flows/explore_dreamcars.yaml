@@ -1,0 +1,61 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: explore dream cars
+name: explore_dreamcars
+states:
+    sedan_options:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: '{{ cms.explore_dreamcars.title_sl }}'
+                text: '{{ cms.explore_dreamcars.text_sl }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/sl.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.roadster_sl }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry
+              - title: '{{ cms.explore_dreamcars.title_slc }}'
+                text: '{{ cms.explore_dreamcars.text_slc }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/slc.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.roadster_slc }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry
+              - title: '{{ cms.explore_dreamcars.title_c_class }}'
+                text: '{{ cms.explore_dreamcars.text_c_class }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/2019/cars/c_class_cabriolet_body_my19_940x509.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.cabriolet_c_class }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry
+              - title: '{{ cms.explore_dreamcars.title_e_class }}'
+                text: '{{ cms.explore_dreamcars.text_e_class }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/e_class_cabriolet.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.cabriolet_e_class }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry
+              - title: '{{ cms.explore_dreamcars.title_s_class }}'
+                text: '{{ cms.explore_dreamcars.text_s_class }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/2019/cars/main-navigation-s-class-canbriolet-940x509.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.cabriolet_s_class }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry

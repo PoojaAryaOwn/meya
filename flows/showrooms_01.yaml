@@ -1,0 +1,32 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: sh
+name: showrooms_01
+states:
+    showrooms_01_msg_select_country:
+        component: meya.text_buttons
+        properties:
+            text: "{{ cms.find_showrooms.msg_select_country }}"
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: BHR
+                  flow: showrooms_bhr
+                - text: IRQ
+                  flow: showrooms_irq
+                - text: JOR
+                  flow: showrooms_jor
+                - text: KSA
+                  flow: showrooms_ksa
+                - text: KWT
+                  flow: showrooms_kwt
+                - text: LBN
+                  flow: showrooms_lbn
+                - text: OMN
+                  flow: showrooms_omn
+                - text: QAT
+                  flow: showrooms_qat
+                - text: UAE
+                  flow: showrooms_uae

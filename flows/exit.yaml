@@ -1,0 +1,14 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: exit
+  - type: meya.regex
+    properties:
+        pattern: (\bexit\b)|(\bbye\b)
+name: exit
+states:
+    text_state:
+        component: meya.text
+        properties:
+            text: '{{ cms.thank_you.msg_thanks_for_chatting }}'
+        return: true

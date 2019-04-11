@@ -1,0 +1,12 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: which_suv_ready
+name: which_suv_ready
+states:
+    great:
+        component: meya.text
+        properties:
+            text: '{{ cms.general.great }}'
+    start_questions:
+        flow: wsuv_freq

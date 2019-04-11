@@ -1,0 +1,32 @@
+states:
+    welcome_state:
+        component: meya.text
+        properties:
+            text: '{{ cms.which_emobility.sedan_msg }}'
+    card_state:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: '{{ cms.which_emobility.sedan_c_class_title }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/sedan-c-class-hybrid.png
+                  buttons:
+                    - text: '{{ cms.general.visit_website }}'
+                      url: '{{ cms.links_website_mb.emobility_general }}'
+                    - text: '{{ cms.general.explore_more_models }}'
+                      flow: explore_our_models_retry
+                - title: '{{ cms.which_emobility.sedan_e_class_title }}'
+                  text: '{{ cms.which_emobility.sedan_e_class_subtitle }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/sedan-e-class-hybrid.png
+                  buttons:
+                    - text: '{{ cms.general.visit_website }}'
+                      url: '{{ cms.links_website_mb.emobility_general }}'
+                    - text: '{{ cms.general.explore_more_models }}'
+                      flow: explore_our_models_retry
+                - title: '{{ cms.which_emobility.sedan_s_class_title }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/sedan-s-class-hybrid.png
+                  buttons:
+                    - text: '{{ cms.general.visit_website }}'
+                      url: '{{ cms.links_website_mb.emobility_general }}'
+                    - text: '{{ cms.general.explore_more_models }}'
+                      flow: explore_our_models_retry

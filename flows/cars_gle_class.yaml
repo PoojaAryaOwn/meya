@@ -1,0 +1,31 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: cars gle class
+name: cars_gle_class
+states:
+    sedan_options:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: '{{ cms.cars.title_gle }}'
+                text: '{{ cms.cars.text_gle }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/gle_suv.jpg
+                buttons:
+                  - text: '{{ cms.general.learn_more }}'
+                    url: '{{ cms.links_website_mb.suv_gle }}'
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.suv_gle }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+              - title: '{{ cms.cars.title_gle_63_coupe }}'
+                text: '{{ cms.cars.text_gle_63_coupe }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/gle_coupe_suv.jpg
+                buttons:
+                  - text: '{{ cms.general.learn_more }}'
+                    url: '{{ cms.links_website_mb.suv_gle_coupe }}'
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.suv_gle_coupe }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true

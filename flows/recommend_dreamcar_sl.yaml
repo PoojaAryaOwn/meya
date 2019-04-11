@@ -1,0 +1,23 @@
+name: recommend_dreamcar_sl
+states:
+    recommend_dreamcar_sl_text:
+        component: meya.text
+        properties:
+            text: '{{ cms.which_dreamcar.recommend_sl_msg }}'
+    recommend_dreamcar_sl_card:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: SL
+                # item_url: '{{ cms.links_website_mb.road_cab_sl }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/sl_roadster.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.roadster_sl }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.visit_website }}'
+                    url: '{{ cms.links_website_mb.road_cab_sl }}'
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry

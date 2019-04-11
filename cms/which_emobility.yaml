@@ -1,0 +1,118 @@
+-   io: output
+    key: carousel_msg
+    language: ar
+    tag: ''
+    type: string
+    value: خيار ممتاز! سياراتنا الكهربائية هي مقياس للجودة في هذا المجال دون أدنى
+        مساومة على القوة والأداء. هل تبحث عن سيارة سيدان أنيقة أم سيارة SUV رحبة؟
+-   io: output
+    key: carousel_msg
+    language: en
+    tag: ''
+    type: string
+    value: Great choice. Our electric cars are setting the standard to beat, without
+        ever compromising power and performance. Are you looking for a sleek sedan
+        or SUV?
+-   io: output
+    key: sedan_c_class_title
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة-C الكهربائية الهجينة
+-   io: output
+    key: sedan_c_class_title
+    language: en
+    tag: ''
+    type: string
+    value: C-Class plug-in hybrid
+-   io: output
+    key: sedan_e_class_subtitle
+    language: ar
+    tag: ''
+    type: string
+    value: متوفرة في الأردن فقط
+-   io: output
+    key: sedan_e_class_subtitle
+    language: en
+    tag: ''
+    type: string
+    value: Available only in Jordan
+-   io: output
+    key: sedan_e_class_title
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة-E الكهربائية الهجينة
+-   io: output
+    key: sedan_e_class_title
+    language: en
+    tag: ''
+    type: string
+    value: E-Class plug-in hybrid
+-   io: output
+    key: sedan_msg
+    language: ar
+    tag: ''
+    type: string
+    value: كل ما تبقى الآن هو اختيار السيدان الملائمة لك. وكن مستعدًا مهما كان اختيارك
+        لتجربة لا ترتقي إليها سوى القلة من السيارات الهجينة. زمام القيادة بين يديك.
+-   io: output
+    key: sedan_msg
+    language: en
+    tag: ''
+    type: string
+    value: All there's left to do is pick the perfect sedan for you. Whichever you
+        choose, buckle up for an experience that few hybrid cars can offer. The wheel
+        is in your hands.
+-   io: output
+    key: sedan_s_class_title
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة-S الكهربائية الهجينة
+-   io: output
+    key: sedan_s_class_title
+    language: en
+    tag: ''
+    type: string
+    value: S-Class plug-in hybrid
+-   io: output
+    key: suv_glc_class_title
+    language: ar
+    tag: ''
+    type: string
+    value: سيارة GLC الكهربائية الهجينة
+-   io: output
+    key: suv_glc_class_title
+    language: en
+    tag: ''
+    type: string
+    value: GLC plug-in hybrid
+-   io: output
+    key: suv_gle_class_title
+    language: ar
+    tag: ''
+    type: string
+    value: سيارة GLE الكهربائية الهجينة
+-   io: output
+    key: suv_gle_class_title
+    language: en
+    tag: ''
+    type: string
+    value: GLE plug-in hybrid
+-   io: output
+    key: suv_msg
+    language: ar
+    tag: ''
+    type: string
+    value: قمة في القوة والأداء. فحضور هذه السيارات ذات الدفع الرباعي على الطريق يتحدث
+        عن ذاته بثقة. اكتشف القوة الحقيقية لسيارات الدفع الرباعي الكهربائية الهجينة.
+        اختر الطراز المفضل لديك أدناه.
+-   io: output
+    key: suv_msg
+    language: en
+    tag: ''
+    type: string
+    value: A beacon of power and performance, these SUV's let their road presence
+        speak for themselves. Discover the real power of a plug-in hybrid SUV. Choose
+        your model below.

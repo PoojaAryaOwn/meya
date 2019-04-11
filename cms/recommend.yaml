@@ -1,0 +1,233 @@
+-   io: output
+    key: msg_g_class
+    language: ar
+    tag: ''
+    type: string
+    value: لكل مغامر متميز يسعى وراء طموحه بتألق.
+-   io: output
+    key: msg_g_class
+    language: en
+    tag: ''
+    type: string
+    value: For a discerning adventurer who pursues greatness with refined taste -
+        the Mercedes-Benz G-Class is the perfect match to take your journey anywhere;
+        both on and off-road.
+-   io: output
+    key: msg_gla
+    language: ar
+    tag: ''
+    type: string
+    value: لكل سائق لا يساوم. مرسيدس-بنز GLA بتصميمها الجريء مخصصة لك أنت بالذات.
+        طراز كروس أوفر مرن يدمج كل ما تطمح إليه في أداء سيارتك.
+-   io: output
+    key: msg_gla
+    language: en
+    tag: ''
+    type: string
+    value: For a frequent driver who doesn't compromise - the boldly designed Mercedes-Benz
+        GLA is your perfect match. An agile cross-over that uncompromisingly fuses
+        function with passion.
+-   io: output
+    key: msg_glc
+    language: ar
+    tag: ''
+    type: string
+    value: لكل من يشع ثقة، ننصحك بسيارة تجمع أفضل ما في الأداء و الرحابة و الكفاءة.
+        مرسيدس-بنز GLC الجديدة، شريكتك المثالية.
+-   io: output
+    key: msg_glc
+    language: en
+    tag: ''
+    type: string
+    value: For someone who radiates effortless confidence, we recommend a car that
+        combines the best of performance, space and efficiency. The new Mercedes-Benz
+        GLC is your perfect match.
+-   io: output
+    key: msg_gle
+    language: ar
+    tag: ''
+    type: string
+    value: لكل من يبدأ رحلة جديدة في كل يوم، على سيارتك المثالية أن تكون بمرونتك و
+        جرأتك. مع مرسيدس-بنز GLE ستشعر بالراحة المطلقة، كيفما كان دربك.
+-   io: output
+    key: msg_gle
+    language: en
+    tag: ''
+    type: string
+    value: For someone who embarks on a new journey everyday, your perfect match is
+        a car that's equally dynamic and assertive. The new Mercedes-Benz GLE will
+        make you feel at home, whatever route you take.
+-   io: output
+    key: msg_gle_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: لكل من تمتعه القوة و الفخامة، ننصحك بسيارة مثيرة بتميزها. ستجد مرآتك في
+        مرسيدس-بنز GLE كوبيه بتصميمها الخيالي الجديد.
+-   io: output
+    key: msg_gle_coupe
+    language: en
+    tag: ''
+    type: string
+    value: For someone who enjoys both strength & splendour - we recommend a car that
+        is excitingly different. The Mercedes-Benz GLE Coupé, in it's new sensational
+        form, is your perfect match.
+-   io: output
+    key: msg_gls
+    language: ar
+    tag: ''
+    type: string
+    value: لكل قائد يفرض الاحترام، ننصحك بسيارة تعكس الشيء ذاته. عليك بملكة السيارات؛
+        مرسيدس-بنز GLS، الفئة S لسيارات الدفع الرباعي.
+-   io: output
+    key: msg_gls
+    language: en
+    tag: ''
+    type: string
+    value: For a leader that effortlessly commands respect - we recommend a car that
+        does the same. Your perfect match is the S-Class of SUVs - the impressive
+        Mercedes-Benz GLS.
+-   io: output
+    key: text_g_class
+    language: ar
+    tag: ''
+    type: string
+    value: أقوى من الزمن
+-   io: output
+    key: text_g_class
+    language: en
+    tag: ''
+    type: string
+    value: Stronger than time
+-   io: output
+    key: text_gla
+    language: ar
+    tag: ''
+    type: string
+    value: صغيرة وسريعة، إنها الأفضل في كل شيء
+-   io: output
+    key: text_gla
+    language: en
+    tag: ''
+    type: string
+    value: Compact and turbo-charged, the best of everything.
+-   io: output
+    key: text_glc
+    language: ar
+    tag: ''
+    type: string
+    value: نصعد بمعايير فخامة سيارات الدفع الرباعي في كل مكان
+-   io: output
+    key: text_glc
+    language: en
+    tag: ''
+    type: string
+    value: Raising the bar for luxury SUVs everywhere.
+-   io: output
+    key: text_gle
+    language: ar
+    tag: ''
+    type: string
+    value: GLE كن في المقدمة مع
+-   io: output
+    key: text_gle
+    language: en
+    tag: ''
+    type: string
+    value: Take the lead in the GLE.
+-   io: output
+    key: text_gle_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: لا تقبل المقاييس، حددها
+-   io: output
+    key: text_gle_coupe
+    language: en
+    tag: ''
+    type: string
+    value: Don't concede to limits, set them.
+-   io: output
+    key: text_gls
+    language: ar
+    tag: ''
+    type: string
+    value: شموخ. الريادة. أينما تذهب
+-   io: output
+    key: text_gls
+    language: en
+    tag: ''
+    type: string
+    value: S-Class of SUVs.
+-   io: output
+    key: title_g_class
+    language: ar
+    tag: ''
+    type: string
+    value: G-الفئة
+-   io: output
+    key: title_g_class
+    language: en
+    tag: ''
+    type: string
+    value: G-Class
+-   io: output
+    key: title_gla
+    language: ar
+    tag: ''
+    type: string
+    value: GLA
+-   io: output
+    key: title_gla
+    language: en
+    tag: ''
+    type: string
+    value: GLA
+-   io: output
+    key: title_glc
+    language: ar
+    tag: ''
+    type: string
+    value: GLC
+-   io: output
+    key: title_glc
+    language: en
+    tag: ''
+    type: string
+    value: GLC
+-   io: output
+    key: title_gle
+    language: ar
+    tag: ''
+    type: string
+    value: GLE
+-   io: output
+    key: title_gle
+    language: en
+    tag: ''
+    type: string
+    value: GLE
+-   io: output
+    key: title_gle_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: GLE كوبيه
+-   io: output
+    key: title_gle_coupe
+    language: en
+    tag: ''
+    type: string
+    value: GLE Coupé
+-   io: output
+    key: title_gls
+    language: ar
+    tag: ''
+    type: string
+    value: GLS
+-   io: output
+    key: title_gls
+    language: en
+    tag: ''
+    type: string
+    value: GLS

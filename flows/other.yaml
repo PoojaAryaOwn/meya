@@ -1,0 +1,18 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: other
+name: other
+states:
+    no_state:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.other.msg_send_notification }}'
+            output: button_click
+            buttons:
+              - text: '{{ cms.other.btn_lets_subscribe }}'
+                flow: subscribe
+              - text: '{{ cms.other.btn_no_thanks }}'
+                action: next
+    nothing_state:
+        flow: exit

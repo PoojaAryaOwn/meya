@@ -1,0 +1,18 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: restart_from_other_flow
+name: restart
+states:
+    first_state:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.restart.msg_how_can_i_help_you }}'
+            output: button_click
+            buttons:
+              - text: '{{ cms.general.book_a_test_drive }}'
+                flow: explore_cars
+              - text: '{{ cms.restart.btn_explore_our_suvs }}'
+                flow: explore_suv
+              - text: '{{ cms.restart.btn_anything_else }}'
+                flow: other

@@ -1,0 +1,17 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: wsuv_freq
+name: wsuv_freq
+states:
+    question:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_suv.msg_how_often_use }}'
+            mode: quick_reply
+            output: button_click
+            buttons:
+              - text: '{{ cms.general.everyday }}'
+                flow: wsuv_d_style
+              - text: '{{ cms.general.weekends }}'
+                flow: wsuv_w_c_loc

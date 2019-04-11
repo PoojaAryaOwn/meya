@@ -1,0 +1,99 @@
+-   io: output
+    key: msg_luxury
+    language: ar
+    tag: ''
+    type: string
+    value: خيارٌ ممتاز! فلا مساومة أبدً على الفخامة. اخبرني،أيهما تفضّل سرعة الإنطلاق
+        أم متعة الرحلة؟
+-   io: output
+    key: msg_luxury
+    language: en
+    tag: ''
+    type: string
+    value: Great choice. Never compromise on luxury. Tell me, do you prefer to take
+        the wheel or enjoy the ride?
+-   io: output
+    key: msg_sporty
+    language: ar
+    tag: ''
+    type: string
+    value: 'خيارٌ ممتاز! أنت تعشق التميز في القيادة. اخبرني، أيهما تفضّل في سيارتك
+        القوة أم العملية؟ '
+-   io: output
+    key: msg_sporty
+    language: en
+    tag: ''
+    type: string
+    value: Someone with a need for a distinct driving experience, great choice. Tell
+        us, do you prefer practicality or sheer performance.
+-   io: output
+    key: msg_welcome
+    language: ar
+    tag: ''
+    type: string
+    value: شكرًا لاختيارك يا {{ user.first_name }}. أي فئات سيدان هي الأقرب لذوقك
+        وشخصيتك؟
+-   io: output
+    key: msg_welcome
+    language: en
+    tag: ''
+    type: string
+    value: Thank you, {{ user.first_name }}. Which of the following best suits your
+        personality and preference?
+-   io: output
+    key: recommend_a_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: 'A الفئة هي السيارة الأنسب لك! فهي الأفضل من حيث دقتها وتحملها – أحسنت
+        الاختيار '
+-   io: output
+    key: recommend_a_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: Good answer. Agile, precise and a wonder to behold, the A-Class is the
+        perfect car for you.
+-   io: output
+    key: recommend_c_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة-C هي السيارة النموذجية لك، فهي سيارة رياضية تلبي احتياجاتك الحياتية
+        دون المساومة على الأداء.
+-   io: output
+    key: recommend_c_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: Then the C-Class is the perfect fit for you, a sports car that prioritizes
+        your needs, without compromising on performance.
+-   io: output
+    key: recommend_e_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: أنت تستحق ان تحظى بقمة الفخامة، الفئة-E هي السيارة القادرة على الاستجابة
+        لروح المغامرة فيك.
+-   io: output
+    key: recommend_e_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: A driver like you deserves the epitome of luxury, making the the E-Class
+        the car for you. There's only one way to experience a drive this sensual,
+        with both hands on the wheel.
+-   io: output
+    key: recommend_s_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: تلزمك سيارة تجسّد الفخامة بكل معنى الكلمة. تلك هي الفئة-S، سيارة تعيد تعريف
+        معايير الراحة والابتكار.
+-   io: output
+    key: recommend_s_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: You need a car that embodies uncompromising luxury. You need the S-Class,
+        setting new standards in comfort and innovation.

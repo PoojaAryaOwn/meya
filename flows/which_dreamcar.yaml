@@ -1,0 +1,45 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: which dreamcar
+name: which_dreamcar
+states:
+    which_dreamcar_first:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_dreamcar.msg_welcome }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.yes }}'
+                  action: goto_roadsters
+                - text: '{{ cms.general.no }}'
+                  action: goto_cabriolets
+        transitions:
+            goto_roadsters: which_dreamcar_roadsters
+            goto_cabriolets: which_dreamcar_cabriolets
+    which_dreamcar_roadsters:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_dreamcar.msg_roadsters }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.which_dreamcar.btn_iconic_status }}'
+                  flow: recommend_dreamcar_sl
+                - text: '{{ cms.which_dreamcar.btn_youthful_spirit }}'
+                  flow: recommend_dreamcar_slc
+    which_dreamcar_cabriolets:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_dreamcar.msg_cabriolets }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.agility }}'
+                  flow: recommend_dreamcar_c_class
+                - text: '{{ cms.general.luxury }}'
+                  flow: recommend_dreamcar_s_class
+                - text: '{{ cms.general.innovation }}'
+                  flow: recommend_dreamcar_e_class

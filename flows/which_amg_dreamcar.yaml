@@ -1,0 +1,37 @@
+states:
+    which_dreamcar_first:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_amg.dreamcar_msg }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.yes }}'
+                  action: goto_yes
+                - text: '{{ cms.general.no }}'
+                  action: goto_no
+        transitions:
+            goto_yes: which_amg_dreamcar_yes
+            goto_no: which_amg_dreamcar_no
+    which_amg_dreamcar_yes:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_amg.dreamcar_yes }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.which_dreamcar.btn_iconic_status }}'
+                  flow: recommend_amg_dreamcar_sl
+                - text: '{{ cms.which_dreamcar.btn_youthful_spirit }}'
+                  flow: recommend_amg_dreamcar_slc
+    which_amg_dreamcar_no:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_amg.dreamcar_no }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.agility }}'
+                  flow: recommend_amg_dreamcar_c_class
+                - text: '{{ cms.general.luxury }}'
+                  flow: recommend_amg_dreamcar_s_class

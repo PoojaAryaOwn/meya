@@ -1,0 +1,13 @@
+triggers:
+  - type: meya.regex
+    properties:
+        pattern: (\your age\b)|(\how old are you\b)|(\years old you have\b)
+states:
+      random_text_state:
+        component: meya.random_text
+        properties:
+            responses:
+                - '{{ cms.faq.msg_age1 }}'
+                - '{{ cms.faq.msg_age2 }}'
+      go_to_main:
+          flow: main_menu

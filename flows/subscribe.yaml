@@ -1,0 +1,18 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: subscribe
+name: subscribe
+states:
+    set_state:
+        component: meya.set
+        properties:
+            key: usr_subscription
+            value: all
+            scope: flow
+    subscribe_in_db:
+        component: subscribe_to_alerts
+    notification:
+        component: meya.text
+        properties:
+            text: '{{ cms.other.msg_subscribed }}'

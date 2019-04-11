@@ -1,0 +1,23 @@
+name: recommend_mpv
+states:
+    recommend_mpv_text:
+        component: meya.text
+        properties:
+            text: '{{ cms.which_mpv.recommend_v_class_msg }}'
+    recommend_mpv_card:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: MPV
+                # item_url: '{{ cms.links_website_mb.mpv_v_class }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/v_class_mpv.jpg
+                buttons:
+                  - text: '{{ cms.general.take_a_tour }}'
+                    url: '{{ cms.which_mpv.recommend_v_class_tour }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.visit_website }}'
+                    url: '{{ cms.links_website_mb.mpv_v_class }}'
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry

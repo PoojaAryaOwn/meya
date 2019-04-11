@@ -1,0 +1,25 @@
+name: showrooms_lbn
+states:
+    showrooms_lbn_cards:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: "{{ cms.showrooms_bhr.title_bouar }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Lebanon-Bouar.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/lebanon-bouar"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps/place/34%C2%B002'47.7%22N+35%C2%B038'08.4%22E/@34.0465749,35.633463,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d34.0465749!4d35.6356517"
+                - title: "{{ cms.showrooms_bhr.title_dora }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Lebanon-Dora.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/lebanon-dora"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps/place/33%C2%B053'39.6%22N+35%C2%B033'19.7%22E/@33.8943368,35.5532851,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.8943368!4d35.5554738"

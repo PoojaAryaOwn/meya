@@ -1,0 +1,125 @@
+-   io: output
+    key: btn_lets_subscribe
+    language: ar
+    tag: ''
+    type: string
+    value: نعم، هيا نشترك
+-   io: output
+    key: btn_lets_subscribe
+    language: en
+    tag: ''
+    type: string
+    value: Yes, Let's Subscribe
+-   io: output
+    key: btn_no_thanks
+    language: ar
+    tag: ''
+    type: string
+    value: لا شكرا
+-   io: output
+    key: btn_no_thanks
+    language: en
+    tag: ''
+    type: string
+    value: No, thanks
+-   io: output
+    key: live_chat_offline
+    language: ar
+    tag: ''
+    type: string
+    value: شكرا لتواصلك معنا. ساعات عملنا هي من 9:00 صباحًا حتي 06:00 مساءًا من الأحد
+        إلى الخميس. سيتواصل فريقنا معك حالما يعودون أونلاين.‎‎
+-   io: output
+    key: live_chat_offline
+    language: en
+    tag: ''
+    type: string
+    value: Thank you. Our working hours are 9am-6pm, Sunday to Thursday. Our team
+        will get in touch with you via messenger when we are back online.
+-   io: output
+    key: live_chat_online
+    language: ar
+    tag: ''
+    type: string
+    value: شكرا لك! سيتواصل فريقنا معك قريبًا.‎‎
+-   io: output
+    key: live_chat_online
+    language: en
+    tag: ''
+    type: string
+    value: Thank you, our team will get in touch with you via messenger shortly.
+-   io: output
+    key: msg_lets_try_again
+    language: ar
+    tag: ''
+    type: string
+    value: هيا نحاول ثانية
+-   io: output
+    key: msg_lets_try_again
+    language: en
+    tag: ''
+    type: string
+    value: Okay, let's try again.
+-   io: output
+    key: msg_more_or_exit
+    language: ar
+    tag: ''
+    type: string
+    value: يرجى اختيار 'المزيد' لنستمر بالدردشة، أو 'خروج' لنتوقف.
+-   io: output
+    key: msg_more_or_exit
+    language: en
+    tag: ''
+    type: string
+    value: Please select "more" to continue chatting or "exit".
+-   io: output
+    key: msg_send_notification
+    language: ar
+    tag: ''
+    type: string
+    value: يمكنني إعلامك عند إطلاقنا لسيارات جديدة في المنطقة.
+-   io: output
+    key: msg_send_notification
+    language: en
+    tag: ''
+    type: string
+    value: I could send you a notification when we launch new cars in the region.
+-   io: output
+    key: msg_subscribed
+    language: ar
+    tag: ''
+    type: string
+    value: شكراً لك. سأرسل لك اشعاراً بأخر الأخبار والمستجدات. ان لم ترغب باستلام
+        المستجدات يمكنك ارسال كلمة الغاء.‎
+-   io: output
+    key: msg_subscribed
+    language: en
+    tag: ''
+    type: string
+    value: Thank you, I will send a notification directly to your messenger when I
+        have something exciting to share. If you wish to stop receiving our updates,
+        you can message me "unsubscribe" anytime.
+-   io: output
+    key: msg_unsubscribed
+    language: ar
+    tag: ''
+    type: string
+    value: حسنا. لن أرسل لك الإشعارات.
+-   io: output
+    key: msg_unsubscribed
+    language: en
+    tag: ''
+    type: string
+    value: Got it. I won't send you notifications.
+-   io: output
+    key: msg_would_like_to_subscribe
+    language: ar
+    tag: ''
+    type: string
+    value: هل تود الاشتراك لتلقي إشعارات عن إنطلاقات سياراتنا الجديدة؟
+-   io: output
+    key: msg_would_like_to_subscribe
+    language: en
+    tag: ''
+    type: string
+    value: Would you like to subscribe to receive notifications on our new car launches?

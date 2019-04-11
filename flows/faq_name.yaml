@@ -1,0 +1,13 @@
+triggers:
+  - type: meya.regex
+    properties:
+        pattern: (\your name\b)
+states:
+      random_text_state:
+        component: meya.random_text
+        properties:
+            responses:
+                - '{{ cms.faq.msg_name1 }}'
+                - '{{ cms.faq.msg_name2 }}'
+      go_to_main:
+          flow: main_menu

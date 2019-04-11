@@ -1,0 +1,36 @@
+-   io: output
+    key: btn_anything_else
+    language: ar
+    tag: ''
+    type: string
+    value: ماذا أيضا؟
+-   io: output
+    key: btn_anything_else
+    language: en
+    tag: ''
+    type: string
+    value: Anything else?
+-   io: output
+    key: btn_explore_our_suvs
+    language: ar
+    tag: ''
+    type: string
+    value: سيارات الدفع الرباعي
+-   io: output
+    key: btn_explore_our_suvs
+    language: en
+    tag: ''
+    type: string
+    value: Explore Our SUVs
+-   io: output
+    key: msg_how_can_i_help_you
+    language: ar
+    tag: ''
+    type: string
+    value: كيف يمكنني أن أساعدك اليوم؟
+-   io: output
+    key: msg_how_can_i_help_you
+    language: en
+    tag: ''
+    type: string
+    value: How can I help you today?

@@ -1,0 +1,12 @@
+states:
+    which_coupe_first:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_amg.coupe_msg }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.two }}'
+                  flow: recommend_amg_coupe_c_class
+                - text: '{{ cms.general.four }}'
+                  flow: recommend_amg_coupe_cla

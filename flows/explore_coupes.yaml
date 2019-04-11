@@ -1,0 +1,57 @@
+name: explore_coupes
+states:
+    sedan_options:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: '{{ cms.explore_coupes.title_c_class }}'
+                  text: '{{ cms.explore_coupes.text_c_class }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/2019/cars/c_class_coupe_body_my19_940x509.jpg
+                  buttons:
+                    - text: '{{ cms.general.book_a_test_drive }}'
+                      url: '{{ cms.links_test_drive_form.coupe_c_class }}'
+                      webview_height_ratio: full
+                      messenger_extensions: true
+                    - text: '{{ cms.general.explore_more_models }}'
+                      flow: explore_our_models_retry
+                - title: '{{ cms.explore_coupes.title_e_class }}'
+                  text: '{{ cms.explore_coupes.text_e_class }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/e_class_coupe.jpg
+                  buttons:
+                    - text: '{{ cms.general.book_a_test_drive }}'
+                      url: '{{ cms.links_test_drive_form.coupe_e_class }}'
+                      webview_height_ratio: full
+                      messenger_extensions: true
+                    - text: '{{ cms.general.explore_more_models }}'
+                      flow: explore_our_models_retry
+                - title: '{{ cms.explore_coupes.title_s_class }}'
+                  text: '{{ cms.explore_coupes.text_s_class }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/2019/cars/main-navigation-s-class-coupe-940x509.jpg
+                  buttons:
+                    - text: '{{ cms.general.book_a_test_drive }}'
+                      url: '{{ cms.links_test_drive_form.coupe_s_class }}'
+                      webview_height_ratio: full
+                      messenger_extensions: true
+                    - text: '{{ cms.general.explore_more_models }}'
+                      flow: explore_our_models_retry
+                - title: '{{ cms.explore_coupes.title_cla }}'
+                  text: '{{ cms.explore_coupes.text_cla }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/cla.jpg
+                  buttons:
+                    - text: '{{ cms.general.book_a_test_drive }}'
+                      url: '{{ cms.links_test_drive_form.coupe_cla }}'
+                      webview_height_ratio: full
+                      messenger_extensions: true
+                    - text: '{{ cms.general.explore_more_models }}'
+                      flow: explore_our_models_retry
+                - title: '{{ cms.explore_coupes.title_cls }}'
+                  text: '{{ cms.explore_coupes.text_cls }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/2019/cars/cls_navigation_my19_940x509.jpg
+                  buttons:
+                    - text: '{{ cms.general.book_a_test_drive }}'
+                      url: '{{ cms.links_test_drive_form.coupe_cls }}'
+                      webview_height_ratio: full
+                      messenger_extensions: true
+                    - text: '{{ cms.general.explore_more_models }}'
+                      flow: explore_our_models_retry

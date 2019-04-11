@@ -1,0 +1,27 @@
+-   io: output
+    key: recommend_v_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة-V هي الفئة النموذجية لك. رحابة مقصورتها الداخلية مصممة لاحتضان كافة
+        احتياجات حياتك اليومية حتى لا يقف شيءٌ في طريقك.
+-   io: output
+    key: recommend_v_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: Then the V-Class is the right choice for you. Larger than life, this car
+        has been designed to cater to your every living need, ensuring nothing stands
+        in your way.
+-   io: output
+    key: recommend_v_class_tour
+    language: ar
+    tag: ''
+    type: string
+    value: https://mercchat.pubcom.one/ar/canvas/v250
+-   io: output
+    key: recommend_v_class_tour
+    language: en
+    tag: ''
+    type: string
+    value: https://mercchat.pubcom.one/en/canvas/v250

@@ -1,0 +1,27 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: recommend_suv_gla
+name: recommend_suv_gla
+states:
+    recommended_text:
+        component: meya.text
+        properties:
+            text: '{{ cms.recommend.msg_gla }}'
+    car_options:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: '{{ cms.recommend.title_gla }}'
+                text: '{{ cms.recommend.text_gla }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/gla_suv.jpg
+                buttons:
+                  - text: '{{ cms.general.take_a_tour }}'
+                    url: '{{ cms.links_canvas.gla_250 }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.visit_website }}'
+                    url: '{{ cms.links_website_mb.suv_gla }}'
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry

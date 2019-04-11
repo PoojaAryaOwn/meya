@@ -1,0 +1,77 @@
+-   io: output
+    key: msg_live_me
+    language: ar
+    tag: ''
+    type: string
+    value: هل تعيش في الشرق الأوسط و بلاد الشام؟
+-   io: output
+    key: msg_live_me
+    language: en
+    tag: ''
+    type: string
+    value: Do you live in the Middle East & Levant?
+-   io: output
+    key: msg_malfunctioning
+    language: ar
+    tag: ''
+    type: string
+    value: عفوا، يبدو أني معطل.أبلغت مبرمجي بهذا الخطأ.هل يمكنني أخذك للقائمة الرئيسية؟
+-   io: output
+    key: msg_malfunctioning
+    language: en
+    tag: ''
+    type: string
+    value: I'm sorry, I seem to be malfunctioning. The bug has been reported to my
+        makers. May I take you back to the main menu?
+-   io: output
+    key: msg_me_country
+    language: ar
+    tag: ''
+    type: string
+    value: أخيرا، في أي بلاد الشرق الأوسط ترغب بحجز تجربتك للقيادة؟
+-   io: output
+    key: msg_me_country
+    language: en
+    tag: ''
+    type: string
+    value: Lastly, in which Middle Eastern country would you like to book your test-drive?
+-   io: output
+    key: msg_pick_one_or_exit
+    language: ar
+    tag: ''
+    type: string
+    value: نرجو اختيار واحدة أو طباعة كلمة ’خروج‘.
+-   io: output
+    key: msg_pick_one_or_exit
+    language: en
+    tag: ''
+    type: string
+    value: Please pick one or type "Exit".
+-   io: output
+    key: msg_proceed_global_website
+    language: ar
+    tag: ''
+    type: string
+    value: شكراً لإهتمامك، لحجز تجربة قيادة في منطقتك، نرجو زيارة موقع مرسيدس-بنز
+        الرسمي.‎
+-   io: output
+    key: msg_proceed_global_website
+    language: en
+    tag: ''
+    type: string
+    value: Thank you for your interest. To book a test drive in your country, please
+        proceed to the Global Mercedes-Benz website.
+-   io: output
+    key: msg_restart
+    language: ar
+    tag: ''
+    type: string
+    value: خيار خاطئ. يمكن حجز تجربة قيادة في:الإمارات، قطر، البحرين، الكويت، لبنان،
+        الأردن أو السعودية.‎
+-   io: output
+    key: msg_restart
+    language: en
+    tag: ''
+    type: string
+    value: That doesn't seem right. I can only book test-drives in United Arab Emirates,
+        Qatar, Bahrain, Kuwait, Lebanon, Jordan or Saudi Arabia.

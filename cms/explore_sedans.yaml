@@ -1,0 +1,96 @@
+-   io: output
+    key: text_a_class
+    language: ar
+    tag: ''
+    type: string
+    value: تُشبهك تماماً
+-   io: output
+    key: text_a_class
+    language: en
+    tag: ''
+    type: string
+    value: Just like you
+-   io: output
+    key: text_c_class
+    language: ar
+    tag: ''
+    type: string
+    value: تمضي قدماً وتقدماً
+-   io: output
+    key: text_c_class
+    language: en
+    tag: ''
+    type: string
+    value: Never stop improving
+-   io: output
+    key: text_e_class
+    language: ar
+    tag: ''
+    type: string
+    value: .تخطى مقاييس جديدة في كل مرة
+-   io: output
+    key: text_e_class
+    language: en
+    tag: ''
+    type: string
+    value: Exceed new limits with every ride.
+-   io: output
+    key: text_s_class
+    language: ar
+    tag: ''
+    type: string
+    value: استمتع بالقيادة الذكية
+-   io: output
+    key: text_s_class
+    language: en
+    tag: ''
+    type: string
+    value: Feel Intelligent Drive
+-   io: output
+    key: title_a_class
+    language: ar
+    tag: ''
+    type: string
+    value: A-الفئة
+-   io: output
+    key: title_a_class
+    language: en
+    tag: ''
+    type: string
+    value: A-Class
+-   io: output
+    key: title_c_class
+    language: ar
+    tag: ''
+    type: string
+    value: C-الفئة
+-   io: output
+    key: title_c_class
+    language: en
+    tag: ''
+    type: string
+    value: C-Class
+-   io: output
+    key: title_e_class
+    language: ar
+    tag: ''
+    type: string
+    value: E-الفئة
+-   io: output
+    key: title_e_class
+    language: en
+    tag: ''
+    type: string
+    value: E-Class
+-   io: output
+    key: title_s_class
+    language: ar
+    tag: ''
+    type: string
+    value: S-الفئة
+-   io: output
+    key: title_s_class
+    language: en
+    tag: ''
+    type: string
+    value: S-Class

@@ -1,0 +1,10 @@
+triggers:
+  - type: meya.regex
+    properties:
+        pattern: (\bhuman\b)
+name: live_chat
+states:
+    live_chat:
+        component: live_chat
+    pausing_bot:
+        component: pause_bot

@@ -1,0 +1,16 @@
+name: showrooms_qat
+states:
+    showrooms_qat_cards:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: "{{ cms.showrooms_bhr.title_al_waab }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/qatar.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/qatar-al-waab-district"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=25.256487406420927,51.48306101719663&z=17"

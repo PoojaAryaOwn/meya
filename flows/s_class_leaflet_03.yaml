@@ -1,0 +1,49 @@
+name: s_class_leaflet_03
+states:
+    text_state:
+        component: meya.text
+        properties:
+            text: "{{ cms.s_class_leaflet.msg_senses }}"
+    multi_card_state:
+        component: meya.cards
+        properties:
+            output: button_click
+            scope: flow
+            elements:
+                - title: "{{ cms.s_class_leaflet.feature_sound }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/s-class-leaflet/8_Sound.png"
+                  buttons:
+                    - text: "{{ cms.s_class_leaflet.btn_learn_more }}"
+                      action: next
+                      data:
+                        sclass_ft: Sound
+                        sclass_ft_list: starting
+                - title: "{{ cms.s_class_leaflet.feature_touch }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/s-class-leaflet/9_Touch.png"
+                  buttons:
+                    - text: "{{ cms.s_class_leaflet.btn_learn_more }}"
+                      action: next
+                      data:
+                        sclass_ft: Touch
+                        sclass_ft_list: starting
+                - title: "{{ cms.s_class_leaflet.feature_smell }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/s-class-leaflet/10_Smell.png"
+                  buttons:
+                    - text: "{{ cms.s_class_leaflet.btn_learn_more }}"
+                      action: next
+                      data:
+                        sclass_ft: Smell
+                        sclass_ft_list: starting
+                - title: "{{ cms.s_class_leaflet.feature_sight }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/s-class-leaflet/11_Sight.png"
+                  buttons:
+                    - text: "{{ cms.s_class_leaflet.btn_learn_more }}"
+                      action: next
+                      data:
+                        sclass_ft: Sight
+                        sclass_ft_list: starting
+    text_feature:
+        component: sclass_features
+        scope: flow
+        transitions:
+            self: text_feature

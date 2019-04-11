@@ -1,0 +1,336 @@
+-   io: output
+    key: address_brightcastle_motors_1
+    language: ar
+    tag: ''
+    type: string
+    value: شارع 100م، اربيل، العراق (+964 750 1000 100)
+-   io: output
+    key: address_brightcastle_motors_1
+    language: en
+    tag: ''
+    type: string
+    value: 100 Meter Road,Erbil, Iraq (+964 750 1000 100)
+-   io: output
+    key: address_brightcastle_motors_2
+    language: ar
+    tag: ''
+    type: string
+    value: السليمانية، كردستان، العراق
+-   io: output
+    key: address_brightcastle_motors_2
+    language: en
+    tag: ''
+    type: string
+    value: Sulaimaniya Kurdistan, Iraq
+-   io: output
+    key: address_emirates_motor_company_1
+    language: ar
+    tag: ''
+    type: string
+    value: أبوظبي، المصفح، M4 شارع 10 (+971 2656 7777)
+-   io: output
+    key: address_emirates_motor_company_1
+    language: en
+    tag: ''
+    type: string
+    value: Abu Dhabi, Mussafah, M4 10th street (+971 2656 7777)
+-   io: output
+    key: address_emirates_motor_company_2
+    language: ar
+    tag: ''
+    type: string
+    value: شارع المطار، الشارع الثاني بجوار كارفور (+971 2444 3171)
+-   io: output
+    key: address_emirates_motor_company_2
+    language: en
+    tag: ''
+    type: string
+    value: Airport Road, 2nd street Beside Carrefour (+971 2444 3171)
+-   io: output
+    key: address_emirates_motor_company_3
+    language: ar
+    tag: ''
+    type: string
+    value: شارع خليفة بن زايد الأول، شارع 122 (+971 3715 7444)
+-   io: output
+    key: address_emirates_motor_company_3
+    language: en
+    tag: ''
+    type: string
+    value: Khalifa Bin Zayed Al Awal street, 122nd St. (+971 3715 7444)
+-   io: output
+    key: address_emirates_motor_company_4
+    language: ar
+    tag: ''
+    type: string
+    value: المرسى، مارينا مول، أبوظبي (+971 2403 7777)
+-   io: output
+    key: address_emirates_motor_company_4
+    language: en
+    tag: ''
+    type: string
+    value: Marina, Marina Mall, Abu Dhabi (+971 2403 7777)
+-   io: output
+    key: address_gargash_enterprises_1
+    language: ar
+    tag: ''
+    type: string
+    value: شارع الاتحاد، دبي (+971 4 2099777)
+-   io: output
+    key: address_gargash_enterprises_1
+    language: en
+    tag: ''
+    type: string
+    value: Al Ittihad Road, Dubai (+971 4 2099777)
+-   io: output
+    key: address_gargash_enterprises_2
+    language: ar
+    tag: ''
+    type: string
+    value: شارع الشيخ زايد، ص.ب 1418 (+971 4 5153838)
+-   io: output
+    key: address_gargash_enterprises_2
+    language: en
+    tag: ''
+    type: string
+    value: Sheikh Zayed Road, PO Box 1418 (+971 4 5153838)
+-   io: output
+    key: address_gargash_enterprises_3
+    language: ar
+    tag: ''
+    type: string
+    value: المنطقة الصناعية 6، الشارقة (+971 6 5385222)
+-   io: output
+    key: address_gargash_enterprises_3
+    language: en
+    tag: ''
+    type: string
+    value: Industrial Area 6, Sharjah (+971 6 5385222)
+-   io: output
+    key: address_gargash_enterprises_4
+    language: ar
+    tag: ''
+    type: string
+    value: شارع الاتحاد، رأس الخيمة (+971 7 2355888)
+-   io: output
+    key: address_gargash_enterprises_4
+    language: en
+    tag: ''
+    type: string
+    value: Al Ittlihad Street, Ras Al Khaimah (+971 7 2355888)
+-   io: output
+    key: address_gargash_enterprises_5
+    language: ar
+    tag: ''
+    type: string
+    value: شارع محمد بن مطر، الفجيرة (+971 9 2233999)
+-   io: output
+    key: address_gargash_enterprises_5
+    language: en
+    tag: ''
+    type: string
+    value: Mohammed bin Mattar Road, Fujairah (+971 9 2233999)
+-   io: output
+    key: address_gargour_fils_sal_1
+    language: ar
+    tag: ''
+    type: string
+    value: طريق الدورة، بيروت، مبنى مرسيدس-بنز ص.ب 110371 (+961 1 255366)
+-   io: output
+    key: address_gargour_fils_sal_1
+    language: en
+    tag: ''
+    type: string
+    value: Dora Highway, Beirut, Mercedes-Benz Building PO Box 110371 (+961 1 255366)
+-   io: output
+    key: address_gargour_fils_sal_2
+    language: ar
+    tag: ''
+    type: string
+    value: بور، طريق طرابلس، مبنى مرسيدس-بنز (+961 9 446222)
+-   io: output
+    key: address_gargour_fils_sal_2
+    language: en
+    tag: ''
+    type: string
+    value: Bouar, Tripoli Highway, Mercedes-Benz Building (+961 9 446222)
+-   io: output
+    key: address_juffali_auto_company_1
+    language: ar
+    tag: ''
+    type: string
+    value: شارع المدينة، مخرج 7، حي العزيزية (+966 12 661 3000)
+-   io: output
+    key: address_juffali_auto_company_1
+    language: en
+    tag: ''
+    type: string
+    value: Medina Rd., Kilo 7, Al Azizia District (+966 12 661 3000)
+-   io: output
+    key: address_juffali_auto_company_2
+    language: ar
+    tag: ''
+    type: string
+    value: Auto Mall, Malek Rd, Al Basateen District, Jeddah (+966 12 215 0050)
+-   io: output
+    key: address_juffali_auto_company_2
+    language: en
+    tag: ''
+    type: string
+    value: Auto Mall, Malek Rd, Al Basateen District, Jeddah (+966 12 215 0050)
+-   io: output
+    key: address_juffali_auto_company_3
+    language: ar
+    tag: ''
+    type: string
+    value: شارع خريص، الرياض، حي النسيم (+966 11 209 3120)
+-   io: output
+    key: address_juffali_auto_company_3
+    language: en
+    tag: ''
+    type: string
+    value: Khurais Rd, Riyadh, Al-Naseem District (+966 11 209 3120)
+-   io: output
+    key: address_juffali_auto_company_4
+    language: ar
+    tag: ''
+    type: string
+    value: شارع العروبة، ص.ب 84380، الرياض 11671 (+966 11 480 9900)
+-   io: output
+    key: address_juffali_auto_company_4
+    language: en
+    tag: ''
+    type: string
+    value: Al Urubah Rd, PO Box 84380, Riyadh 11671 (+966 11 480 9900)
+-   io: output
+    key: btn_abu_dhabi
+    language: ar
+    tag: ''
+    type: string
+    value: أبوظبي / العين
+-   io: output
+    key: btn_abu_dhabi
+    language: en
+    tag: ''
+    type: string
+    value: Abu Dhabi / Al Ain
+-   io: output
+    key: btn_dubai
+    language: ar
+    tag: ''
+    type: string
+    value: دبي / غيرها
+-   io: output
+    key: btn_dubai
+    language: en
+    tag: ''
+    type: string
+    value: Dubai / Others
+-   io: output
+    key: btn_pick_this_showroom
+    language: ar
+    tag: ''
+    type: string
+    value: اختر هذه الصالة
+-   io: output
+    key: btn_pick_this_showroom
+    language: en
+    tag: ''
+    type: string
+    value: Pick this showroom
+-   io: output
+    key: btn_view_on_map
+    language: ar
+    tag: ''
+    type: string
+    value: شاهدها على الخريطة
+-   io: output
+    key: btn_view_on_map
+    language: en
+    tag: ''
+    type: string
+    value: View on Map
+-   io: output
+    key: msg_select_showroom
+    language: ar
+    tag: ''
+    type: string
+    value: يرجى اختيار صالة العرض التي تناسبك أكثر
+-   io: output
+    key: msg_select_showroom
+    language: en
+    tag: ''
+    type: string
+    value: Please select the showroom most convenient for you.
+-   io: output
+    key: msg_which_city
+    language: ar
+    tag: ''
+    type: string
+    value: في أي مدينة تود أن تجرب قيادة السيارة؟
+-   io: output
+    key: msg_which_city
+    language: en
+    tag: ''
+    type: string
+    value: Which city would you like to have your test-drive in?
+-   io: output
+    key: title_brightcastle_motors
+    language: ar
+    tag: ''
+    type: string
+    value: برايت كاسل موتورز
+-   io: output
+    key: title_brightcastle_motors
+    language: en
+    tag: ''
+    type: string
+    value: BrightCastle Motors
+-   io: output
+    key: title_emirates_motor_company
+    language: ar
+    tag: ''
+    type: string
+    value: شركة الإمارات للسيارات
+-   io: output
+    key: title_emirates_motor_company
+    language: en
+    tag: ''
+    type: string
+    value: Emirates Motor Company
+-   io: output
+    key: title_gargash_enterprises
+    language: ar
+    tag: ''
+    type: string
+    value: مشاريع قرقاش ذ.م.م
+-   io: output
+    key: title_gargash_enterprises
+    language: en
+    tag: ''
+    type: string
+    value: Gargash Enterprises LLC
+-   io: output
+    key: title_gargour_fils_sal
+    language: ar
+    tag: ''
+    type: string
+    value: شركة توفيق جرجور وأبنائه
+-   io: output
+    key: title_gargour_fils_sal
+    language: en
+    tag: ''
+    type: string
+    value: T. Gargour & Fils SAL
+-   io: output
+    key: title_juffali_auto_company
+    language: ar
+    tag: ''
+    type: string
+    value: شركة الجفالي للسيارات
+-   io: output
+    key: title_juffali_auto_company
+    language: en
+    tag: ''
+    type: string
+    value: Juffali Automotive Company

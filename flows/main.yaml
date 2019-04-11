@@ -1,0 +1,21 @@
+triggers:
+  - type: meya.greetings
+states:
+    welcome:
+        component: meya.text
+        properties:
+            text: Hello {{ user.first_name }}, you’re through to Mercedes-Benz Cars Middle East Chatbot. Please select your preferred language to continue.
+    select_language:
+        component: meya.text_buttons
+        properties:
+            text: أهلًا {{ user.first_name }}! مرحبًا بك في صفحة المحادثة المبرمجة لسيارات مرسيدس-بنز الشرق الأوسط. اختر اللغة التي تفضلها للاستمرار.
+            output: button_click
+            buttons:
+            - text: 'English'
+              flow: main_menu
+              data:
+                language: 'en'
+            - text: 'اللغة العربية‎'
+              flow: main_menu
+              data:
+                language: 'ar'

@@ -1,0 +1,60 @@
+-   io: output
+    key: title_auto_mall
+    language: ar
+    tag: ''
+    type: string
+    value: جدة - أوتو مول
+-   io: output
+    key: title_auto_mall
+    language: en
+    tag: ''
+    type: string
+    value: Jeddah - Auto Mall
+-   io: output
+    key: title_damman
+    language: ar
+    tag: ''
+    type: string
+    value: الدمام
+-   io: output
+    key: title_damman
+    language: en
+    tag: ''
+    type: string
+    value: Dammam
+-   io: output
+    key: title_kuraidh
+    language: ar
+    tag: ''
+    type: string
+    value: الرياض - شارع خريص
+-   io: output
+    key: title_kuraidh
+    language: en
+    tag: ''
+    type: string
+    value: Riyadh - Khurais Rd.
+-   io: output
+    key: title_madinah
+    language: ar
+    tag: ''
+    type: string
+    value: جدة - شارع المدينة
+-   io: output
+    key: title_madinah
+    language: en
+    tag: ''
+    type: string
+    value: Jeddah - Madinah Rd.
+-   io: output
+    key: title_urubah
+    language: ar
+    tag: ''
+    type: string
+    value: الرياض - شارع العروبة
+-   io: output
+    key: title_urubah
+    language: en
+    tag: ''
+    type: string
+    value: Riyadh - Urubah Rd.

@@ -1,0 +1,27 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: cars c class
+name: cars_c_class
+states:
+    sedan_options:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: '{{ cms.cars.title_c_class_sedan }}'
+                text: '{{ cms.cars.text_c_class_sedan }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/c_class_sedan.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.sedan_c_class }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+              - title: '{{ cms.cars.title_c_class_coupe }}'
+                text: '{{ cms.cars.text_c_class_coupe }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/c_class_coupe.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.coupe_c_class }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true

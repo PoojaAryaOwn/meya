@@ -1,0 +1,37 @@
+-   io: output
+    key: msg_suggest_or_select
+    language: ar
+    tag: ''
+    type: string
+    value: يمكنني اقتراح سيارة دفع رباعي، أو تُفضِل‎‎ اختيار واحدة من طرازاتنا‎؟
+-   io: output
+    key: msg_suggest_or_select
+    language: en
+    tag: ''
+    type: string
+    value: I can suggest an SUV for you or would you prefer to select one from our
+        range?
+-   io: output
+    key: opt_select
+    language: ar
+    tag: ''
+    type: string
+    value: أرغب بالاختيار
+-   io: output
+    key: opt_select
+    language: en
+    tag: ''
+    type: string
+    value: I'd like to select
+-   io: output
+    key: opt_suggest
+    language: ar
+    tag: ''
+    type: string
+    value: أية سيارة تناسبني؟‎
+-   io: output
+    key: opt_suggest
+    language: en
+    tag: ''
+    type: string
+    value: Which SUV is for me?

@@ -1,0 +1,16 @@
+name: showrooms_kwt
+states:
+    showrooms_kwt_cards:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: "{{ cms.showrooms_bhr.title_shuwaikh }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/kuwait.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/kuwait-shuwaikh"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=29.33555797861105,47.93558128902441&z=17"

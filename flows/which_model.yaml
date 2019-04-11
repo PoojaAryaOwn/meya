@@ -1,0 +1,50 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: which model
+states:
+    welcome_state:
+        component: meya.text
+        properties:
+            text: '{{ cms.which_model.msg_welcome }}'
+    card_state:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: '{{ cms.which_model.text_sedans }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-sedan.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_sedan
+                - title: '{{ cms.which_model.text_coupes }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-coupe.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_coupe
+                - title: '{{ cms.which_model.text_roads_cabs }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-road-cab.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_dreamcar
+                - title: '{{ cms.which_model.text_suvs }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-suv.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_suv_ready
+                - title: '{{ cms.which_model.text_mpvs }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-mpv.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: recommend_mpv
+                - title: 'AMG'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-amg.png?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_amg
+                - title: 'eMobility'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-emobility.png?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_emobility

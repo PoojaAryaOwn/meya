@@ -1,0 +1,47 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: explore cars
+name: explore_cars
+states:
+    welcome_state:
+        component: meya.text
+        properties:
+            text: '{{ cms.explore_cars.msg_welcome }}'
+    card_state:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: '{{ cms.explore_cars.title_sedans }}'
+                  text: '{{ cms.explore_cars.text_sedans }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-sedan.jpg?v=63422
+                  buttons:
+                    - text: '{{ cms.main.btn_select }}'
+                      flow: explore_sedans
+                - title: '{{ cms.explore_cars.title_coupes }}'
+                  text: '{{ cms.explore_cars.text_coupes }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-coupe.jpg?v=63422
+                  buttons:
+                    - text: '{{ cms.main.btn_select }}'
+                      flow: explore_coupes
+                - title: '{{ cms.explore_cars.title_dreamcars }}'
+                  text: '{{ cms.explore_cars.text_dreamcars }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-road-cab.jpg?v=63422
+                  buttons:
+                    - text: '{{ cms.main.btn_select }}'
+                      flow: explore_dreamcars
+                - title: '{{ cms.explore_cars.title_suvs }}'
+                  text: '{{ cms.explore_cars.text_suvs }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-suv.jpg?v=63422
+                  buttons:
+                    - text: '{{ cms.main.btn_select }}'
+                      flow: explore_suv_crossover
+                - title: '{{ cms.explore_cars.title_mpvs }}'
+                  text: '{{ cms.explore_cars.text_mpvs }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-mpv.jpg?v=63422
+                  buttons:
+                    - text: '{{ cms.general.book_a_test_drive }}'
+                      url: '{{ cms.links_test_drive_form.mpv_v_class }}'
+                      webview_height_ratio: full
+                      messenger_extensions: true

@@ -1,0 +1,27 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: recommend_suv_glc
+name: recommend_suv_glc
+states:
+    recommended_text:
+        component: meya.text
+        properties:
+            text: '{{ cms.recommend.msg_glc }}'
+    car_options:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: '{{ cms.recommend.title_glc }}'
+                text: '{{ cms.recommend.text_glc }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/glc_suv.jpg
+                buttons:
+                  - text: '{{ cms.general.take_a_tour }}'
+                    url: '{{ cms.links_canvas.glc_250_4matic_coupe }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.visit_website }}'
+                    url: '{{ cms.links_website_mb.suv_glc }}'
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry

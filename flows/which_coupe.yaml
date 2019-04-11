@@ -1,0 +1,45 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: which coupe
+name: which_coupe
+states:
+    which_coupe_first:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_coupe.msg_great_choice }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.two }}'
+                  action: goto_two
+                - text: '{{ cms.general.four }}'
+                  action: goto_four
+        transitions:
+            goto_two: which_coupe_two
+            goto_four: which_coupe_four
+    which_coupe_two:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_coupe.msg_two_doors }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.innovation }}'
+                  flow: recommend_coupe_e_class
+                - text: '{{ cms.general.luxury }}'
+                  flow: recommend_coupe_s_class
+                - text: '{{ cms.general.power }}'
+                  flow: recommend_coupe_c_class
+    which_coupe_four:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_coupe.msg_four_doors }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.style }}'
+                  flow: recommend_coupe_cls
+                - text: '{{ cms.general.agility }}'
+                  flow: recommend_coupe_cla

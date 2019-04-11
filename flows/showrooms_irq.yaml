@@ -1,0 +1,25 @@
+name: showrooms_irq
+states:
+    showrooms_irq_cards:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: "{{ cms.showrooms_irq.title_main_branch }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Iraq.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/iraq-sulaimaniya"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=35.5504024,45.40817997036129&z=17"
+                - title: "{{ cms.showrooms_irq.title_100_meter_road }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Iraq_100_meter_road.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/iraq-100-meter-road"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=36.1603333,43.97017159999996&z=17"

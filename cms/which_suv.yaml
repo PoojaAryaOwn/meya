@@ -1,0 +1,161 @@
+-   io: output
+    key: btn_city_roads
+    language: ar
+    tag: ''
+    type: string
+    value: شوارع المدينة
+-   io: output
+    key: btn_city_roads
+    language: en
+    tag: ''
+    type: string
+    value: City roads
+-   io: output
+    key: btn_off_road
+    language: ar
+    tag: ''
+    type: string
+    value: على الطرق الوعرة
+-   io: output
+    key: btn_off_road
+    language: en
+    tag: ''
+    type: string
+    value: Off-road
+-   io: output
+    key: msg_are_you_an_explorer
+    language: ar
+    tag: ''
+    type: string
+    value: هل تحب الاستكشاف والقيادة على‎ الطرق‎ الوعرة؟
+-   io: output
+    key: msg_are_you_an_explorer
+    language: en
+    tag: ''
+    type: string
+    value: Are you an explorer at heart, who enjoys going off-road?
+-   io: output
+    key: msg_exit_chat
+    language: ar
+    tag: ''
+    type: string
+    value: اخرج من الدردشة
+-   io: output
+    key: msg_exit_chat
+    language: en
+    tag: ''
+    type: string
+    value: Exit Chat
+-   io: output
+    key: msg_few_questions
+    language: ar
+    tag: ''
+    type: string
+    value: جيد أنك سألت. أود طرح بعض الأسئلة التي ستساعدني في التعرّف على شخصيتك أثناء
+        القيادة، كي أتمكن من اقتراح أمثل سيارة دفع رباعي بالنسبة لك. هل أنت مستعد؟
+-   io: output
+    key: msg_few_questions
+    language: en
+    tag: ''
+    type: string
+    value: Glad you asked. I have a few questions which will help me understand your
+        driving personality and recommend the best SUV for you. Ready to start?
+-   io: output
+    key: msg_how_many_passengers
+    language: ar
+    tag: ''
+    type: string
+    value: بشكل عام، كم شخصا يركب السيارة معك في العادة؟
+-   io: output
+    key: msg_how_many_passengers
+    language: en
+    tag: ''
+    type: string
+    value: Generally speaking, how many passengers would you usually have in your
+        car?
+-   io: output
+    key: msg_how_often_use
+    language: ar
+    tag: ''
+    type: string
+    value: كم مرة تقود سيارتك في العادة؟‎‎
+-   io: output
+    key: msg_how_often_use
+    language: en
+    tag: ''
+    type: string
+    value: How often do you use your car?
+-   io: output
+    key: msg_interested_in_more_luxurious
+    language: ar
+    tag: ''
+    type: string
+    value: هل تفضل طرز مرسيدس-بنز أكثر فخامة؟
+-   io: output
+    key: msg_interested_in_more_luxurious
+    language: en
+    tag: ''
+    type: string
+    value: Would you be interested in a more luxurious Mercedes-Benz model?
+-   io: output
+    key: msg_is_spacious_important
+    language: ar
+    tag: ''
+    type: string
+    value: هل تعتبر رحابة السيارة أمرا مهما؟
+-   io: output
+    key: msg_is_spacious_important
+    language: en
+    tag: ''
+    type: string
+    value: Is a spacious car important to you?
+-   io: output
+    key: msg_it_only_takes_3
+    language: ar
+    tag: ''
+    type: string
+    value: متأكد؟ سيستغرق الأمر 3 دقائق فقط.
+-   io: output
+    key: msg_it_only_takes_3
+    language: en
+    tag: ''
+    type: string
+    value: Are you sure? It only takes 3 minutes.
+-   io: output
+    key: msg_start_questions
+    language: ar
+    tag: ''
+    type: string
+    value: ابدأ الأسئلة‎
+-   io: output
+    key: msg_start_questions
+    language: en
+    tag: ''
+    type: string
+    value: Start Questions
+-   io: output
+    key: msg_where_usually_drive
+    language: ar
+    tag: ''
+    type: string
+    value: أين تقود سيارتك في العادة؟
+-   io: output
+    key: msg_where_usually_drive
+    language: en
+    tag: ''
+    type: string
+    value: Great, where do you usually drive your car?
+-   io: output
+    key: msg_which_best_suits_you
+    language: ar
+    tag: ''
+    type: string
+    value: شكرا لك {{ user.first_name }}. أي الخيارات التالية تعبّر عن شخصيتك و ميولك
+        أكثر؟
+-   io: output
+    key: msg_which_best_suits_you
+    language: en
+    tag: ''
+    type: string
+    value: Thank you, {{ user.first_name }}. Which of the following best suits your
+        personality and preference?

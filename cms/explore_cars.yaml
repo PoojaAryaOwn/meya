@@ -1,0 +1,145 @@
+-   io: output
+    key: btn_suvs_and_cross_overs
+    language: ar
+    tag: ''
+    type: string
+    value: أية SUV تناسبني؟
+-   io: output
+    key: btn_suvs_and_cross_overs
+    language: en
+    tag: ''
+    type: string
+    value: Which SUV is for me?
+-   io: output
+    key: msg_welcome
+    language: ar
+    tag: ''
+    type: string
+    value: هيا نبدأ باختيار الطراز الذي تفضله.
+-   io: output
+    key: msg_welcome
+    language: en
+    tag: ''
+    type: string
+    value: Which car would you like to test drive? Let's start with selecting the
+        range you're interested in.
+-   io: output
+    key: text_coupes
+    language: ar
+    tag: ''
+    type: string
+    value: بفخامة أناقتها
+-   io: output
+    key: text_coupes
+    language: en
+    tag: ''
+    type: string
+    value: Stylish Luxury
+-   io: output
+    key: text_dreamcars
+    language: ar
+    tag: ''
+    type: string
+    value: رمز القوة والأداء
+-   io: output
+    key: text_dreamcars
+    language: en
+    tag: ''
+    type: string
+    value: The epitome of power and performance.
+-   io: output
+    key: text_mpvs
+    language: ar
+    tag: ''
+    type: string
+    value: حيث تزدهر الراحة والثقة
+-   io: output
+    key: text_mpvs
+    language: en
+    tag: ''
+    type: string
+    value: Where comfort and dependability thrive.
+-   io: output
+    key: text_sedans
+    language: ar
+    tag: ''
+    type: string
+    value: سيطر على الطريق بثقة تامة
+-   io: output
+    key: text_sedans
+    language: en
+    tag: ''
+    type: string
+    value: Reign the roads with complete confidence
+-   io: output
+    key: text_suvs
+    language: ar
+    tag: ''
+    type: string
+    value: سيارات الدفع الرباعي والكروس أوفر
+-   io: output
+    key: text_suvs
+    language: en
+    tag: ''
+    type: string
+    value: Luxury meets convenience and control
+-   io: output
+    key: title_coupes
+    language: ar
+    tag: ''
+    type: string
+    value: الكوبيه
+-   io: output
+    key: title_coupes
+    language: en
+    tag: ''
+    type: string
+    value: Coupés
+-   io: output
+    key: title_dreamcars
+    language: ar
+    tag: ''
+    type: string
+    value: رودستر و كابريوليه
+-   io: output
+    key: title_dreamcars
+    language: en
+    tag: ''
+    type: string
+    value: Roadsters & Cabriolets
+-   io: output
+    key: title_mpvs
+    language: ar
+    tag: ''
+    type: string
+    value: المركبات المتعددة الأغراض
+-   io: output
+    key: title_mpvs
+    language: en
+    tag: ''
+    type: string
+    value: MPVs
+-   io: output
+    key: title_sedans
+    language: ar
+    tag: ''
+    type: string
+    value: السيدان
+-   io: output
+    key: title_sedans
+    language: en
+    tag: ''
+    type: string
+    value: Sedans
+-   io: output
+    key: title_suvs
+    language: ar
+    tag: ''
+    type: string
+    value: سيارات الدفع الرباعي و الكروس أوفر
+-   io: output
+    key: title_suvs
+    language: en
+    tag: ''
+    type: string
+    value: SUVs & Cross-overs

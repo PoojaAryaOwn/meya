@@ -1,0 +1,112 @@
+-   io: output
+    key: msg_four_doors
+    language: ar
+    tag: ''
+    type: string
+    value: شكرًا لاختيارك يا {{ user.first_name }}. أي هذه المواصفات هي الأقرب لذوقك
+        وشخصيتك؟
+-   io: output
+    key: msg_four_doors
+    language: en
+    tag: ''
+    type: string
+    value: Thank you, {{ user.first_name }}. Which of the following best suits your
+        personality and preference?
+-   io: output
+    key: msg_great_choice
+    language: ar
+    tag: ''
+    type: string
+    value: خيار رائع! فمجموعة سيارات كوبيه ستدفع بحبك للإنطلاق إلى آفاق جديدة من السرعة.
+        أيهما تفضّل كوبيه ذات بابين أو أربعة أبواب؟
+-   io: output
+    key: msg_great_choice
+    language: en
+    tag: ''
+    type: string
+    value: Great choice. Our range of Coupés will push your love of the roads to unparalleled
+        speeds. Tell me, do you prefer a two door or four-door coupé?
+-   io: output
+    key: msg_two_doors
+    language: ar
+    tag: ''
+    type: string
+    value: شكرًا لاختيارك! لدينا عدة خيارات من سيارات كوبيه يمكن أن نقترحها عليك.
+        ما هو أكثر ما يجذبك في السيارة الرياضية؟
+-   io: output
+    key: msg_two_doors
+    language: en
+    tag: ''
+    type: string
+    value: Thank You. We've got some incredible Coupés in mind. What do you look for
+        in a sports car?
+-   io: output
+    key: recommend_c_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: أعد اكتشاف حبك للقيادة على متن الفئة-C، فأصحاب القوة والعزيمة يستحقون سيارة
+        ترقى لقدراتهم.
+-   io: output
+    key: recommend_c_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: Rediscover your love for driving as you soar through the world in the C-Class.
+        Anyone built for agility deserves a car that knows how to deliver.
+-   io: output
+    key: recommend_cla_msg
+    language: ar
+    tag: ''
+    type: string
+    value: لدي السيارة التي صممت خصيصاً لذوقك! سيارة CLA التي تجمع ما بين أناقة الكوبيه
+        التي تخطف الانظار وما بين الراحة والرحابة من الداخل.
+-   io: output
+    key: recommend_cla_msg
+    language: en
+    tag: ''
+    type: string
+    value: I've got the perfect suit for you. The CLA offers all of the agility and
+        sportiness of a coupé without ever compromising comfort and space.
+-   io: output
+    key: recommend_cls_msg
+    language: ar
+    tag: ''
+    type: string
+    value: لدي السيارة التي صممت خصيصاً لذوقك! سيارة CLS التي تجمع ما بين أناقة الكوبيه
+        التي تخطف الانظار وما بين الراحة والرحابة والأداء الذي لا يضاهى.
+-   io: output
+    key: recommend_cls_msg
+    language: en
+    tag: ''
+    type: string
+    value: I've got the perfect suit for you. The CLS offers the show-stopping style
+        of a coupé without compromising performance, comfort and space.
+-   io: output
+    key: recommend_e_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: إذن الفئة-E كوبيه هي الفئة المثالية لك. فهي معززة بكل ما يلزمك من الابتكارات
+        الذكية لمتعة الانطلاق.
+-   io: output
+    key: recommend_e_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: Then we have the perfect model for you. The E-Class Coupé is powered by
+        intelligence, equipped with the innovation you need for total driving pleasure.
+-   io: output
+    key: recommend_s_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: إنها الفخامة بكل معنى الكلمة. الفئة-S مصممة لتنعم بالراحة والرفاهية حتى
+        أدق التفاصيل إلى جانب قوتها التي لا تضاهى.
+-   io: output
+    key: recommend_s_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: It doesn't get more luxurious than this. The S-Class has been refined to
+        the finest details, offering unrelenting power and comfort.

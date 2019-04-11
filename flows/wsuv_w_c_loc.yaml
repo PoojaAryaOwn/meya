@@ -1,0 +1,17 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: wsuv_w_c_loc
+name: wsuv_w_c_loc
+states:
+    question:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_suv.msg_where_usually_drive }}'
+            mode: quick_reply
+            output: button_click
+            buttons:
+              - text: '{{ cms.which_suv.btn_city_roads }}'
+                flow: wsuv_w_c_style
+              - text: '{{ cms.which_suv.btn_off_road }}'
+                flow: recommend_suv_g_class

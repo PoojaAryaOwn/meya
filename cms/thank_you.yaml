@@ -1,0 +1,26 @@
+-   io: output
+    key: msg_1
+    language: ar
+    tag: ''
+    type: string
+    value: أهلا بك في أي وقت {{ user.first_name }}
+-   io: output
+    key: msg_1
+    language: en
+    tag: ''
+    type: string
+    value: You're most welcome, {{ user.first_name }}.
+-   io: output
+    key: msg_thanks_for_chatting
+    language: ar
+    tag: ''
+    type: string
+    value: شكرًا {{ user.first_name }} لحديثك معي. إذا كانت لديك أي اقتراحات قد تساعدني
+        على تحسين أدائي، أرجوا منك التواصل مع فريق برمجتي على البريدالإلكتروني Hi@mercedesbenzme.com
+-   io: output
+    key: msg_thanks_for_chatting
+    language: en
+    tag: ''
+    type: string
+    value: Thank you for chatting with me, {{ user.first_name }}. If you have any
+        suggestions to help me improve, please get in touch with my creators on Hi@mercedesbenzme.com

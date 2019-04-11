@@ -1,0 +1,133 @@
+-   io: output
+    key: msg_welcome
+    language: ar
+    tag: ''
+    type: string
+    value: رائع! دعنا نبدأ. أي طراز من سيارات مرسيدس-بنز يثير حماسك أكثر؟
+-   io: output
+    key: msg_welcome
+    language: en
+    tag: ''
+    type: string
+    value: Great. Let's get this show on the road. Tell me, what is it about the Mercedes-Benz
+        range of cars that revs your engine?
+-   io: output
+    key: text_coupes
+    language: ar
+    tag: ''
+    type: string
+    value: بفخامة أناقتها
+-   io: output
+    key: text_coupes
+    language: en
+    tag: ''
+    type: string
+    value: Stylish Luxury
+-   io: output
+    key: text_mpvs
+    language: ar
+    tag: ''
+    type: string
+    value: برحابة حجمها
+-   io: output
+    key: text_mpvs
+    language: en
+    tag: ''
+    type: string
+    value: Larger than life
+-   io: output
+    key: text_roads_cabs
+    language: ar
+    tag: ''
+    type: string
+    value: 'مظهرها الجريء '
+-   io: output
+    key: text_roads_cabs
+    language: en
+    tag: ''
+    type: string
+    value: Expressive appearance
+-   io: output
+    key: text_sedans
+    language: ar
+    tag: ''
+    type: string
+    value: تميز يحبس الأنفاس‎
+-   io: output
+    key: text_sedans
+    language: en
+    tag: ''
+    type: string
+    value: Breathtaking distinction
+-   io: output
+    key: text_suvs
+    language: ar
+    tag: ''
+    type: string
+    value: العملية بامتياز
+-   io: output
+    key: text_suvs
+    language: en
+    tag: ''
+    type: string
+    value: Premium Practicality
+-   io: output
+    key: title_coupes
+    language: ar
+    tag: ''
+    type: string
+    value: الكوبيه
+-   io: output
+    key: title_coupes
+    language: en
+    tag: ''
+    type: string
+    value: Coupés
+-   io: output
+    key: title_mpvs
+    language: ar
+    tag: ''
+    type: string
+    value: المركبات متعددة الأغراض
+-   io: output
+    key: title_mpvs
+    language: en
+    tag: ''
+    type: string
+    value: MPVs
+-   io: output
+    key: title_roads_cabs
+    language: ar
+    tag: ''
+    type: string
+    value: رودستر وكابريوليه
+-   io: output
+    key: title_roads_cabs
+    language: en
+    tag: ''
+    type: string
+    value: Roadsters & Cabriolates
+-   io: output
+    key: title_sedans
+    language: ar
+    tag: ''
+    type: string
+    value: السيدان
+-   io: output
+    key: title_sedans
+    language: en
+    tag: ''
+    type: string
+    value: Sedans
+-   io: output
+    key: title_suvs
+    language: ar
+    tag: ''
+    type: string
+    value: سيارات الدفع الرباعي والكروس أوفر
+-   io: output
+    key: title_suvs
+    language: en
+    tag: ''
+    type: string
+    value: SUVs & Cross-overs

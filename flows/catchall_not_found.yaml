@@ -1,0 +1,23 @@
+states:
+    message:
+        component: meya.random_text
+        properties:
+            responses:
+              - '{{ cms.catchall.msg_introduction1 }}'
+              - '{{ cms.catchall.msg_introduction2 }}'
+              - '{{ cms.catchall.msg_introduction3 }}'
+    to_main_menu:
+        component: meya.text_buttons
+        properties:
+            text: "{{ cms.catchall.msg_return }}"
+            mode: quick_reply
+            output: button_click
+            buttons:
+              - text: '{{ cms.main.btn_yes }}'
+                flow: main
+              - text: '{{ cms.main.btn_no }}'
+                action: next
+    talk_to_human:
+        component: meya.text
+        properties:
+            text: '{{ cms.catchall.msg_type_human }}'

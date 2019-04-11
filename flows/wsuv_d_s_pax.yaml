@@ -1,0 +1,19 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: wsuv_d_s_pax
+name: wsuv_d_s_pax
+states:
+    question:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_suv.msg_how_many_passengers }}'
+            mode: quick_reply
+            output: button_click
+            buttons:
+              - text: '{{ cms.general.1_or_2 }}'
+                flow: wsuv_d_s_off
+              - text: '{{ cms.general.3_or_4 }}'
+                flow: wsuv_d_s_off
+              - text: '{{ cms.general.5_plus }}'
+                flow: wsuv_d_s_off

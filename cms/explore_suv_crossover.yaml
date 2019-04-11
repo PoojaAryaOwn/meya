@@ -1,0 +1,144 @@
+-   io: output
+    key: text_g_class
+    language: ar
+    tag: ''
+    type: string
+    value: أقوى من الزمن
+-   io: output
+    key: text_g_class
+    language: en
+    tag: ''
+    type: string
+    value: Stronger than time
+-   io: output
+    key: text_gla
+    language: ar
+    tag: ''
+    type: string
+    value: صغيرة وسريعة، إنها الأفضل في كل شيء
+-   io: output
+    key: text_gla
+    language: en
+    tag: ''
+    type: string
+    value: Compact and turbo-charged, the best of everything.
+-   io: output
+    key: text_glc
+    language: ar
+    tag: ''
+    type: string
+    value: نصعد بمعايير فخامة سيارات الدفع الرباعي في كل مكان
+-   io: output
+    key: text_glc
+    language: en
+    tag: ''
+    type: string
+    value: Raising the bar for luxury SUVs everywhere.
+-   io: output
+    key: text_gle
+    language: ar
+    tag: ''
+    type: string
+    value: سيارة الدفع الرباعي الاستثنائيه التي اخترعت فئتها.
+-   io: output
+    key: text_gle
+    language: en
+    tag: ''
+    type: string
+    value: The premium SUV that invented its class.
+-   io: output
+    key: text_gle_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: لا ترضى بالمقاييس، حددها
+-   io: output
+    key: text_gle_coupe
+    language: en
+    tag: ''
+    type: string
+    value: Don't concede to limits, set them.
+-   io: output
+    key: text_gls
+    language: ar
+    tag: ''
+    type: string
+    value: S-أثبتت جدارتها مثل سيارة الفئة
+-   io: output
+    key: text_gls
+    language: en
+    tag: ''
+    type: string
+    value: S-Class of SUVs.
+-   io: output
+    key: title_g_class
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة-G
+-   io: output
+    key: title_g_class
+    language: en
+    tag: ''
+    type: string
+    value: G-Class
+-   io: output
+    key: title_gla
+    language: ar
+    tag: ''
+    type: string
+    value: GLA
+-   io: output
+    key: title_gla
+    language: en
+    tag: ''
+    type: string
+    value: GLA
+-   io: output
+    key: title_glc
+    language: ar
+    tag: ''
+    type: string
+    value: GLC
+-   io: output
+    key: title_glc
+    language: en
+    tag: ''
+    type: string
+    value: GLC
+-   io: output
+    key: title_gle
+    language: ar
+    tag: ''
+    type: string
+    value: GLE
+-   io: output
+    key: title_gle
+    language: en
+    tag: ''
+    type: string
+    value: GLE
+-   io: output
+    key: title_gle_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: GLE Coupé
+-   io: output
+    key: title_gle_coupe
+    language: en
+    tag: ''
+    type: string
+    value: GLE Coupé
+-   io: output
+    key: title_gls
+    language: ar
+    tag: ''
+    type: string
+    value: GLS
+-   io: output
+    key: title_gls
+    language: en
+    tag: ''
+    type: string
+    value: GLS

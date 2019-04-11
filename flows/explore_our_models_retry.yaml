@@ -1,0 +1,32 @@
+name: explore_our_models_retry
+states:
+    first_state:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.explore_our_models.msg_suggest_or_select_retry }}'
+            output: button_click
+            buttons:
+                - text: '{{ cms.explore_our_models.btn_which_car_for_me }}'
+                  action: next
+                - text: '{{ cms.explore_our_models.btn_i_will_select }}'
+                  flow: explore_cars
+    second_state:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.explore_our_models.msg_glad_you_asked }}'
+            output: button_click
+            buttons:
+                - text: '{{ cms.general.yes }}'
+                  flow: which_model
+                - text: '{{ cms.general.no }}'
+                  action: next
+    third_state:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.explore_our_models.msg_are_you_sure }}'
+            output: button_click
+            buttons:
+                - text: '{{ cms.explore_our_models.msg_start }}'
+                  flow: which_model
+                - text: '{{ cms.explore_our_models.msg_exit }}'
+                  flow: exit

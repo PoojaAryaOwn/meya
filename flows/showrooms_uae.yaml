@@ -1,0 +1,88 @@
+name: showrooms_uae
+states:
+    showrooms_uae_cards:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: "{{ cms.showrooms_uae.msg_title_deira }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Dubai_Deira.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/dubai-deira"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=25.26616,55.33778099999995&z=17"
+                - title: "{{ cms.showrooms_uae.msg_title_alqouz }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Dubai_Al_Qouz.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/dubai-szr-al-qouz"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=25.138653577851194,55.218561999982626&z=17"
+                - title: "{{ cms.showrooms_uae.msg_title_ras }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Ras_Al_Kaimah.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/dubai-ras-al-khaimah"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=25.748956727058843,55.90565819961398&z=17"
+                - title: "{{ cms.showrooms_uae.msg_title_sharjah }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Sharjah.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/dubai-sharjah"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=25.32124866490483,55.429350980864115&z=17"
+                - title: "{{ cms.showrooms_uae.msg_title_fujairah }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Fujairah.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/dubai-fujairah"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=25.131825515893503,56.33039418455155&z=17"
+                - title: "{{ cms.showrooms_uae.msg_title_abu_airport }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Abu_Dhabi_airport.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/abu-dhabi-airport-road"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=24.424742104353534,54.44802733238464&z=17"
+                - title: "{{ cms.showrooms_uae.msg_title_abu_marina }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Abu_Dhabi_Al_Marina.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/abu-dhabi-al-marina"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=24.475411502760366,54.31992016742436&z=17"
+                - title: "{{ cms.showrooms_uae.msg_title_abu_mussafah }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Abu_Dhabi_mussafah.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/abu-dhabi-mussafah"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=24.36758163349376,54.518041061168674&z=17"
+                - title: "{{ cms.showrooms_uae.msg_title_al_ain }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/showrooms/Al_Ain.png"
+                  buttons:
+                    - text: "{{ cms.find_showrooms.btn_contact_info }}"
+                      url: "https://chat.mercedesbenzme.com/en/showrooms/abu-dhabi-al-ain"
+                      webview_height_ratio: compact
+                      messenger_extensions: true
+                    - text: "{{ cms.find_showrooms.btn_google_maps }}"
+                      url: "https://www.google.com/maps?q=24.181883617224802,55.75548708570557&z=17"

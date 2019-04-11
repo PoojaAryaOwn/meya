@@ -1,0 +1,72 @@
+-   io: output
+    key: btn_anything_else
+    language: ar
+    tag: ''
+    type: string
+    value: أية خدمة أخرى؟
+-   io: output
+    key: btn_anything_else
+    language: en
+    tag: ''
+    type: string
+    value: Anything else?
+-   io: output
+    key: btn_book_test_drive
+    language: ar
+    tag: ''
+    type: string
+    value: احجز تجربة قيادة
+-   io: output
+    key: btn_book_test_drive
+    language: en
+    tag: ''
+    type: string
+    value: Book a Test-Drive
+-   io: output
+    key: btn_explore_our_models
+    language: ar
+    tag: ''
+    type: string
+    value: اكتشف طرازاتنا
+-   io: output
+    key: btn_explore_our_models
+    language: en
+    tag: ''
+    type: string
+    value: Explore Our Models
+-   io: output
+    key: btn_explore_our_suvs
+    language: ar
+    tag: ''
+    type: string
+    value: سيارات الدفع الرباعي
+-   io: output
+    key: btn_explore_our_suvs
+    language: en
+    tag: ''
+    type: string
+    value: Explore Our SUVs
+-   io: output
+    key: btn_find_showrooms
+    language: ar
+    tag: ''
+    type: string
+    value: أقرب صالة عرض
+-   io: output
+    key: btn_find_showrooms
+    language: en
+    tag: ''
+    type: string
+    value: Find a Showroom
+-   io: output
+    key: msg_introduction
+    language: ar
+    tag: ''
+    type: string
+    value: كيف يمكنني أن أساعدك اليوم؟
+-   io: output
+    key: msg_introduction
+    language: en
+    tag: ''
+    type: string
+    value: How can I help you today?

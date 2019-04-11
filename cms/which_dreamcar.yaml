@@ -1,0 +1,148 @@
+-   io: output
+    key: btn_iconic_status
+    language: ar
+    tag: ''
+    type: string
+    value: المكانة الراقية
+-   io: output
+    key: btn_iconic_status
+    language: en
+    tag: ''
+    type: string
+    value: Iconic status
+-   io: output
+    key: btn_youthful_spirit
+    language: ar
+    tag: ''
+    type: string
+    value: الروح الشبابية
+-   io: output
+    key: btn_youthful_spirit
+    language: en
+    tag: ''
+    type: string
+    value: Youthful spirit
+-   io: output
+    key: msg_cabriolets
+    language: ar
+    tag: ''
+    type: string
+    value: شكرًا لاختيارك يا {{ user.first_name }}. أي هذه المواصفات هيالأقرب لذوقك
+        وشخصيتك؟
+-   io: output
+    key: msg_cabriolets
+    language: en
+    tag: ''
+    type: string
+    value: Thank you, {{ user.first_name }}. Which of the following best suits your
+        personality and preference?
+-   io: output
+    key: msg_great_choice
+    language: en
+    tag: ''
+    type: string
+    value: There's no greater feeling than the wind in your hair. Have you ever imagined
+        yourself cruising in a two-seater car?
+-   io: output
+    key: msg_roadsters
+    language: ar
+    tag: ''
+    type: string
+    value: رائع! قل لي، أيهما يجذبك أكثر، المكانة الراقية التي تعكسها السيارة أو الروح
+        الشبابية التي تنطلق بها؟
+-   io: output
+    key: msg_roadsters
+    language: en
+    tag: ''
+    type: string
+    value: That's great. Tell me, what's more important  to you, the status an iconic
+        car gives, or the youthful spirit of the drive?
+-   io: output
+    key: msg_welcome
+    language: ar
+    tag: ''
+    type: string
+    value: لا يوجد أجمل من الإحساس بالهواء الطلق اثناء القيادة. هل يا ترى سبق وأن
+        تخيلت نفسك وأنت تتجول بسيارة ذات مقعدين؟
+-   io: output
+    key: msg_welcome
+    language: en
+    tag: ''
+    type: string
+    value: "There's no greater feeling than the wind in your hair. Have you ever imagined\
+        \ yourself cruising in a \ntwo-seater car?"
+-   io: output
+    key: recommend_c_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: لدينا السيارة النموذجية لك. انعم بكل قوة وأداءالفئة-C إلى جانب السقف القابل
+        للفتح لكابورليه.
+-   io: output
+    key: recommend_c_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: We have the ideal choice for you. Revel in all of the power and performance
+        of a C-Class with the added benefit of a Cabriolet drop top. This is the C-Class
+        Cabriolet.
+-   io: output
+    key: recommend_e_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: هذا هو الخيار الملائم لك بلا شك. ضع يديك على مقود الفئة-E كابورليه واكتشف
+        أحد أكثر طرازاتنا تطورًا على مستوى التقنية والذكاء، واكتشف متعة الانطلاق الحقيقي.
+-   io: output
+    key: recommend_e_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: The answer couldn't be clearer, you need to get your hands around the wheel
+        of the E-Class Cabriolet. Step inside one of our smartest models ever and
+        discover true driving pleasure.
+-   io: output
+    key: recommend_s_class_msg
+    language: ar
+    tag: ''
+    type: string
+    value: نفهم تمامًا ما الذي تحتاج إليه، إنها الفئة-Sكابورليه. هي الأفخم ضمن مجموعتها
+        وتقف في الصدارة بين مثيلاتها حيثما ذهبت. إذاكنت تسعى للأفضل فقط، فهذه السيارة
+        صممت لك.
+-   io: output
+    key: recommend_s_class_msg
+    language: en
+    tag: ''
+    type: string
+    value: We know exactly what you need, the S-Class Cabriolet. This top-of-the-range
+        flagship car sets standards wherever it drives. If you crave the best, then
+        look no further.
+-   io: output
+    key: recommend_sl_msg
+    language: ar
+    tag: ''
+    type: string
+    value: اربط حزامك جيدًا لتنطلق بـ SL. إنها السيارة التي ننصحك بها لتمتلك الطريق
+        وتخطف الأنظار. SLإنها رمز المكانة والرقي.
+-   io: output
+    key: recommend_sl_msg
+    language: en
+    tag: ''
+    type: string
+    value: You're going to want to buckle up for this, we recommend the SL for you.
+        Own the road and make an impression with the undeniably iconic SL.
+-   io: output
+    key: recommend_slc_msg
+    language: ar
+    tag: ''
+    type: string
+    value: يبدو أن SLC هي السيارة الملائمة لشغفك. فوراء مظهرها الأنيق والمتميز تكمن
+        روح وقدرات روح الشباب المغامِرة.
+-   io: output
+    key: recommend_slc_msg
+    language: en
+    tag: ''
+    type: string
+    value: It sounds like the SLC is the perfect model for you. Don't let its elegant
+        and refined design fool you, this car has the adventurous spirit of a young
+        soul.

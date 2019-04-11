@@ -1,0 +1,23 @@
+name: recommend_sedan_s_class
+states:
+    recommend_sedan_s_class_text:
+        component: meya.text
+        properties:
+            text: '{{ cms.which_sedan.recommend_s_class_msg }}'
+    recommend_sedan_s_class_card:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: S-Class
+                # item_url: '{{ cms.links_website_mb.sedan_s_class }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/2019/cars/main-navigation-s-class-sedan_940x509.jpg
+                buttons:
+                  - text: '{{ cms.general.take_a_tour }}'
+                    url: '{{ cms.links_canvas.sclass_450 }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.visit_website }}'
+                    url: '{{ cms.links_website_mb.sedan_s_class }}'
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry

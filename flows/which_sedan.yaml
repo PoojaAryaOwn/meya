@@ -1,0 +1,43 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: true
+        keyword: which sedan
+name: which_sedan
+states:
+    which_sedan_first:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_sedan.msg_welcome }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.luxurious }}'
+                  action: goto_luxurious
+                - text: '{{ cms.general.sporty }}'
+                  action: goto_sporty
+        transitions:
+            goto_luxurious: which_sedan_luxurious
+            goto_sporty: which_sedan_sporty
+    which_sedan_luxurious:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_sedan.msg_luxury }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.take_the_wheel }}'
+                  flow: recommend_sedan_e_class
+                - text: '{{ cms.general.enjoy_the_ride }}'
+                  flow: recommend_sedan_s_class
+    which_sedan_sporty:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_sedan.msg_sporty }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.practical }}'
+                  flow: recommend_sedan_c_class
+                - text: '{{ cms.general.agility }}'
+                  flow: recommend_sedan_a_class

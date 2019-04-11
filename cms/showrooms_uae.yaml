@@ -1,0 +1,108 @@
+-   io: output
+    key: msg_title_abu_airport
+    language: ar
+    tag: ''
+    type: string
+    value: أبو ظبي - شارع المطار
+-   io: output
+    key: msg_title_abu_airport
+    language: en
+    tag: ''
+    type: string
+    value: Abu Dhabi - Airport Road
+-   io: output
+    key: msg_title_abu_marina
+    language: ar
+    tag: ''
+    type: string
+    value: أبو ظبي - المرينا
+-   io: output
+    key: msg_title_abu_marina
+    language: en
+    tag: ''
+    type: string
+    value: Abu Dhabi - Al Marina
+-   io: output
+    key: msg_title_abu_mussafah
+    language: ar
+    tag: ''
+    type: string
+    value: أبو ظبي - مصفح
+-   io: output
+    key: msg_title_abu_mussafah
+    language: en
+    tag: ''
+    type: string
+    value: Abu Dhabi - Mussafah
+-   io: output
+    key: msg_title_al_ain
+    language: ar
+    tag: ''
+    type: string
+    value: العين
+-   io: output
+    key: msg_title_al_ain
+    language: en
+    tag: ''
+    type: string
+    value: Al Ain
+-   io: output
+    key: msg_title_alqouz
+    language: ar
+    tag: ''
+    type: string
+    value: دبي - شارع الشيخ زايد، القوز
+-   io: output
+    key: msg_title_alqouz
+    language: en
+    tag: ''
+    type: string
+    value: Dubai - SZR, Al Qouz
+-   io: output
+    key: msg_title_deira
+    language: ar
+    tag: ''
+    type: string
+    value: دبي - ديرة
+-   io: output
+    key: msg_title_deira
+    language: en
+    tag: ''
+    type: string
+    value: Dubai - Deira
+-   io: output
+    key: msg_title_fujairah
+    language: ar
+    tag: ''
+    type: string
+    value: الفجيرة
+-   io: output
+    key: msg_title_fujairah
+    language: en
+    tag: ''
+    type: string
+    value: Fujairah
+-   io: output
+    key: msg_title_ras
+    language: ar
+    tag: ''
+    type: string
+    value: رأس الخيمة
+-   io: output
+    key: msg_title_ras
+    language: en
+    tag: ''
+    type: string
+    value: Ras Al Khaimah
+-   io: output
+    key: msg_title_sharjah
+    language: ar
+    tag: ''
+    type: string
+    value: الشارقة
+-   io: output
+    key: msg_title_sharjah
+    language: en
+    tag: ''
+    type: string
+    value: Sharjah

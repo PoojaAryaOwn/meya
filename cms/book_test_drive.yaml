@@ -1,0 +1,160 @@
+-   io: output
+    key: msg_0_3_months
+    language: ar
+    tag: ''
+    type: string
+    value: ليس في وقت قريب‎
+-   io: output
+    key: msg_0_3_months
+    language: en
+    tag: ''
+    type: string
+    value: 0 - 3 Months
+-   io: output
+    key: msg_3_6_months
+    language: ar
+    tag: ''
+    type: string
+    value: خلال ٦ اشهر
+-   io: output
+    key: msg_3_6_months
+    language: en
+    tag: ''
+    type: string
+    value: 3 - 6 Months
+-   io: output
+    key: msg_few_quick_questions
+    language: ar
+    tag: ''
+    type: string
+    value: لدينا بعض الأسئلة السريعة.
+-   io: output
+    key: msg_few_quick_questions
+    language: en
+    tag: ''
+    type: string
+    value: We have a few quick questions.
+-   io: output
+    key: msg_great_choice
+    language: ar
+    tag: ''
+    type: string
+    value: أختيار عظيم! لقد قمت بإختيار ‎{}
+-   io: output
+    key: msg_great_choice
+    language: en
+    tag: ''
+    type: string
+    value: You’ve chosen the {}. Great choice!
+-   io: output
+    key: msg_invalid_email
+    language: ar
+    tag: ''
+    type: string
+    value: عفوا، لم أفهم. للاستمرار، يرجى إدخال بريد إلكتروني صحيح.‎‎
+-   io: output
+    key: msg_invalid_email
+    language: en
+    tag: ''
+    type: string
+    value: Sorry I didn't get that. Please enter a valid email address to proceed.
+-   io: output
+    key: msg_invalid_number
+    language: ar
+    tag: ''
+    type: string
+    value: عفواً، الرقم الذي قمت بإدخاله غير صحيح، يرجو تزويدنا برقم صحيح لنتمكن من
+        الاتصال بك.‎
+-   io: output
+    key: msg_invalid_number
+    language: en
+    tag: ''
+    type: string
+    value: Sorry, that's not a valid number. Please enter your phone number so we
+        can contact you.
+-   io: output
+    key: msg_not_planning
+    language: ar
+    tag: ''
+    type: string
+    value: خلال ٣ اشهر‎
+-   io: output
+    key: msg_not_planning
+    language: en
+    tag: ''
+    type: string
+    value: Not Planning
+-   io: output
+    key: msg_ready_to_book
+    language: ar
+    tag: ''
+    type: string
+    value: هل أنت جاهز للاستمرار في حجز تجربة القيادة؟
+-   io: output
+    key: msg_ready_to_book
+    language: en
+    tag: ''
+    type: string
+    value: Are you ready to proceed with the test-drive booking?
+-   io: output
+    key: question_contact_number
+    language: ar
+    tag: ''
+    type: string
+    value: شكراً لك. يرجى تزويدنا برقم الجوال الذي تفضله.‎
+-   io: output
+    key: question_contact_number
+    language: en
+    tag: ''
+    type: string
+    value: Thank you. Can we have your preferred contact number?
+-   io: output
+    key: question_email
+    language: ar
+    tag: ''
+    type: string
+    value: رائع! إلى أي بريد إلكتروني يمكننا إرسال تأكيد الحجز؟
+-   io: output
+    key: question_email
+    language: en
+    tag: ''
+    type: string
+    value: Great. What email address can we send the booking confirmation to?
+-   io: output
+    key: question_email_unplan
+    language: ar
+    tag: ''
+    type: string
+    value: ربما تقوم بتغيير رأيك بعد تجربة القيادة. على أي بريد إلكتروني يمكننا إرسال
+        تأكيد الحجز؟
+-   io: output
+    key: question_email_unplan
+    language: en
+    tag: ''
+    type: string
+    value: Maybe getting behind the wheel of one will change your mind! What email
+        address can we send the booking confirmation to?
+-   io: output
+    key: question_full_name
+    language: ar
+    tag: ''
+    type: string
+    value: ما هو اسمك الكامل؟
+-   io: output
+    key: question_full_name
+    language: en
+    tag: ''
+    type: string
+    value: What is your full name?
+-   io: output
+    key: question_planning_to_buy
+    language: ar
+    tag: ''
+    type: string
+    value: متى تنوي شراء سيارتك التالية؟
+-   io: output
+    key: question_planning_to_buy
+    language: en
+    tag: ''
+    type: string
+    value: When are you planning to buy your next car?

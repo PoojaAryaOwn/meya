@@ -1,0 +1,17 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: which_suv_unready
+name: which_suv_unready
+states:
+    confirm:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_suv.msg_it_only_takes_3 }}'
+            mode: quick_reply
+            output: button_click
+            buttons:
+              - text: '{{ cms.which_suv.msg_exit_chat }}'
+                flow: exit
+              - text: '{{ cms.which_suv.msg_start_questions }}'
+                flow: which_suv_ready

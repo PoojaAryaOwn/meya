@@ -1,0 +1,24 @@
+states:
+    welcome_state:
+        component: meya.text
+        properties:
+            text: '{{ cms.which_emobility.suv_msg }}'
+    card_state:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: '{{ cms.which_emobility.suv_glc_class_title }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/suv-glc-hybrid.png
+                  buttons:
+                    - text: '{{ cms.general.visit_website }}'
+                      url: '{{ cms.links_website_mb.emobility_general }}'
+                    - text: '{{ cms.general.explore_more_models }}'
+                      flow: explore_our_models_retry
+                - title: '{{ cms.which_emobility.suv_gle_class_title }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/suv-gle-hybrid.png
+                  buttons:
+                    - text: '{{ cms.general.visit_website }}'
+                      url: '{{ cms.links_website_mb.emobility_general }}'
+                    - text: '{{ cms.general.explore_more_models }}'
+                      flow: explore_our_models_retry

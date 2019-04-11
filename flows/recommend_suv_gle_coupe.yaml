@@ -1,0 +1,27 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: recommend_suv_gle_coupe
+name: recommend_suv_gle_coupe
+states:
+    recommended_text:
+        component: meya.text
+        properties:
+            text: '{{ cms.recommend.msg_gle_coupe }}'
+    car_options:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: '{{ cms.recommend.title_gle_coupe }}'
+                text: '{{ cms.recommend.text_gle_coupe }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/gle_coupe_suv.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.suv_gle_coupe }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.visit_website }}'
+                    url: '{{ cms.links_website_mb.suv_gle_coupe }}'
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry

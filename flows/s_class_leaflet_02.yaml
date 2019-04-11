@@ -1,0 +1,43 @@
+name: s_class_leaflet_02
+states:
+    text_state:
+        component: meya.text
+        properties:
+            text: "{{ cms.s_class_leaflet.msg_right_choice }}"
+        delay:
+            relative: 8
+    list_features_1:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: "{{ cms.s_class_leaflet.ft_freshness }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/s-class-leaflet/1-freshness.png"
+                  buttons:
+                    - text: "{{ cms.main.view }}"
+                      flow: s_class_leaflet_ft_01
+                - title: "{{ cms.s_class_leaflet.ft_training }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/s-class-leaflet/2-training.png"
+                  buttons:
+                    - text: "{{ cms.main.view }}"
+                      flow: s_class_leaflet_ft_02
+                - title: "{{ cms.s_class_leaflet.ft_vitality }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/s-class-leaflet/3-vitality.png"
+                  buttons:
+                    - text: "{{ cms.main.view }}"
+                      flow: s_class_leaflet_ft_03
+                - title: "{{ cms.s_class_leaflet.ft_comfort }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/s-class-leaflet/4-comfort.png"
+                  buttons:
+                    - text: "{{ cms.main.view }}"
+                      flow: s_class_leaflet_ft_04
+                - title: "{{ cms.s_class_leaflet.ft_warmth }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/s-class-leaflet/5-warmth.png"
+                  buttons:
+                    - text: "{{ cms.main.view }}"
+                      flow: s_class_leaflet_ft_05
+                - title: "{{ cms.s_class_leaflet.ft_joy }}"
+                  image_url: "https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/s-class-leaflet/6-joy.png"
+                  buttons:
+                    - text: "{{ cms.main.view }}"
+                      flow: s_class_leaflet_ft_06

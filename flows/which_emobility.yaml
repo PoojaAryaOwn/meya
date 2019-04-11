@@ -1,0 +1,20 @@
+states:
+    welcome_state:
+        component: meya.text
+        properties:
+            text: '{{ cms.which_emobility.carousel_msg }}'
+    card_state:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: '{{ cms.which_model.text_sedans }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-sedan.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_emobility_sedan
+                - title: '{{ cms.which_model.text_suvs }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-suv.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_emobility_suv

@@ -1,0 +1,11 @@
+triggers:
+  - type: meya.regex
+    properties:
+        pattern: (\bthank\b)|(\bthanks\b)
+name: thank_you
+states:
+    random_thank_you:
+        component: meya.random_text
+        properties:
+            responses:
+            - '{{ cms.thank_you.msg_1 }}'

@@ -1,0 +1,262 @@
+-   io: output
+    key: btn_learn_more
+    language: en
+    tag: ''
+    type: string
+    value: Learn More
+-   io: output
+    key: btn_leave_message
+    language: en
+    tag: ''
+    type: string
+    value: Leave a message
+-   io: output
+    key: btn_tell_more
+    language: en
+    tag: ''
+    type: string
+    value: Tell me more
+-   io: output
+    key: btn_test_drive
+    language: en
+    tag: ''
+    type: string
+    value: Book Test Drive
+-   io: output
+    key: feature_sight
+    language: en
+    tag: ''
+    type: string
+    value: Sight
+-   io: output
+    key: feature_smell
+    language: en
+    tag: ''
+    type: string
+    value: Smell
+-   io: output
+    key: feature_sound
+    language: en
+    tag: ''
+    type: string
+    value: Sound
+-   io: output
+    key: feature_touch
+    language: en
+    tag: ''
+    type: string
+    value: Touch
+-   io: output
+    key: ft_comfort
+    language: en
+    tag: ''
+    type: string
+    value: 'Equipped with massage settings. '
+-   io: output
+    key: ft_freshness
+    language: en
+    tag: ''
+    type: string
+    value: Nothing beats a fresh drive.
+-   io: output
+    key: ft_joy
+    language: en
+    tag: ''
+    type: string
+    value: 'A car that understands your needs. '
+-   io: output
+    key: ft_training
+    language: en
+    tag: ''
+    type: string
+    value: Activate your personal performance.
+-   io: output
+    key: ft_vitality
+    language: en
+    tag: ''
+    type: string
+    value: 'Feel the adrenaline pump. '
+-   io: output
+    key: ft_warmth
+    language: en
+    tag: ''
+    type: string
+    value: 'Total relaxation is certain.   '
+-   io: output
+    key: link_test_drive
+    language: en
+    tag: ''
+    type: string
+    value: https://mercchat.pubcom.one/en/test-drive?model=sclass_450
+-   io: output
+    key: msg_customer_service
+    language: en
+    tag: ''
+    type: string
+    value: Leave your message below and our service team will be sure to get back
+        to you.
+-   io: output
+    key: msg_ft_comfort
+    language: en
+    tag: ''
+    type: string
+    value: 'Above all else, your comfort and wellness is this car’s top priority.
+        The new S-Class is equipped with massage settings, adjustable fragrance features,
+        customizable ambient lighting and so much more. Every day feels like a spa
+        day when you’re immersed in the comfort of this front seat.
+
+        '
+-   io: output
+    key: msg_ft_freshness
+    language: en
+    tag: ''
+    type: string
+    value: 'Nothing beats a fresh drive. The air pulsation feature of the new S-Class
+        allows you to tailor the fragrance of your car to your precise taste, immersing
+        you into the experience even further with adjustable ambient lighting and
+        seat ventilation.
+
+        '
+-   io: output
+    key: msg_ft_joy
+    language: en
+    tag: ''
+    type: string
+    value: 'True joy is a car that understands your needs. The new S-Class now offers
+        massage settings so that you always have something to look forward to after
+        a long day, enriched further by customizable fragrance features and adjustable
+        ambient lighting.
+
+        '
+-   io: output
+    key: msg_ft_sight
+    language: en
+    tag: ''
+    type: string
+    value: 'Revel in the wonder of your interior light show that adjusts to suit your
+        music, your mood and your desired ambience.
+
+        '
+-   io: output
+    key: msg_ft_smell
+    language: en
+    tag: ''
+    type: string
+    value: 'Adjust the aroma of your car to perfectly suit your mood, offering immediate
+        sensory satisfaction as our advanced AC units emit a soothing, fragrant breeze.
+
+        '
+-   io: output
+    key: msg_ft_sound
+    language: en
+    tag: ''
+    type: string
+    value: 'The new S-Class is equipped with a Burmester™ sound system that will shake
+        your passion for music to its very core, complemented by stimulating lighting
+        that reacts to the music.
+
+        '
+-   io: output
+    key: msg_ft_touch
+    language: en
+    tag: ''
+    type: string
+    value: 'Feel a refreshing cool breeze as your fingers wrap around the finest interiors
+        any car enthusiast could ask for, complemented by massage settings tailored
+        around your total comfort.
+
+        '
+-   io: output
+    key: msg_ft_training
+    language: en
+    tag: ''
+    type: string
+    value: When you’re on the roads, you like to feel in control. The new S-Class
+        offers video training for three training modes – muscle relaxation, muscle
+        activation and balance – each with several exercises. Make the most of this
+        drive-enhancing feature. Let the new S-Class show you how.
+-   io: output
+    key: msg_ft_vitality
+    language: en
+    tag: ''
+    type: string
+    value: 'A young soul needs a revitalized drive. Soar through the world listening
+        to fast beat music. Feel the adrenaline pump through your veins as the surrounding
+        light show adapts to the beat. Leave no passion unchecked as you drive the
+        way you deserve to.
+
+        '
+-   io: output
+    key: msg_ft_warmth
+    language: en
+    tag: ''
+    type: string
+    value: 'There’s nothing more warming than a drive designed around your total comfort.
+        The new S-Class is equipped with panel and steering wheel heating, fragrance
+        customization and adjustable ambient lighting to ensure that your total relaxation
+        is certain, wherever the road takes you next.
+
+        '
+-   io: output
+    key: msg_next_sense
+    language: en
+    tag: ''
+    type: string
+    value: Which sense would you like to explore next?
+-   io: output
+    key: msg_next_step
+    language: en
+    tag: ''
+    type: string
+    value: You’ve reached the end of the road, take the next step.
+-   io: output
+    key: msg_not_interested
+    language: en
+    tag: ''
+    type: string
+    value: Nothing to worry about. If you ever want to find out more about the S-Class,
+        you know where to find us. Would you like to leave a message for customer
+        service instead?
+-   io: output
+    key: msg_right_choice
+    language: en
+    tag: ''
+    type: string
+    value: You’ve made the right choice, {{ user.first_name }}. The new S-Class is
+        equipped with ENERGIZING comfort control features to offer a transcendent
+        driving experience. With six comfort settings at the tip of your fingers,
+        all you have to do is choose and succumb to your surroundings as the lights,
+        massage settings, in-car aroma and music adapt to perfectly suit your mood.
+        So, which will you choose first?
+-   io: output
+    key: msg_senses
+    language: en
+    tag: ''
+    type: string
+    value: We’re glad we’ve caught your attention, {{ user.first_name }}.  Now tell
+        me, which sense would you like to stimulate first?
+-   io: output
+    key: msg_step_inside
+    language: en
+    tag: ''
+    type: string
+    value: 'A car of this caliber deserves to be experienced first-hand. Step inside
+        and take your senses on an adventure they won’t soon forget. The new S-Class
+        is ready to take your driving comfort to the next level, are you?
+
+        '
+-   io: output
+    key: msg_take_to_next_step
+    language: en
+    tag: ''
+    type: string
+    value: Take the next step
+-   io: output
+    key: msg_welcome
+    language: en
+    tag: ''
+    type: string
+    value: "Hello {{ user.first_name }}, it looks like the bespoke driving features\
+        \ of the new S-Class have caught your eye. Buckle up, we’re about to take\
+        \ you on a journey that is guaranteed to thrill and entice your senses. Are\
+        \ you ready to begin?  \n"

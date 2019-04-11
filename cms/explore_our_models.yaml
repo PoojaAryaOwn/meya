@@ -1,0 +1,101 @@
+-   io: output
+    key: btn_i_will_select
+    language: ar
+    tag: ''
+    type: string
+    value: أفضّل الاختيار
+-   io: output
+    key: btn_i_will_select
+    language: en
+    tag: ''
+    type: string
+    value: I'd like to select
+-   io: output
+    key: btn_which_car_for_me
+    language: ar
+    tag: ''
+    type: string
+    value: أي طراز يناسبني؟
+-   io: output
+    key: btn_which_car_for_me
+    language: en
+    tag: ''
+    type: string
+    value: Find a model for me
+-   io: output
+    key: msg_are_you_sure
+    language: ar
+    tag: ''
+    type: string
+    value: هل أنت متأكد؟ لن يستغرق ذلك أكثر من ثلاث دقائق!
+-   io: output
+    key: msg_are_you_sure
+    language: en
+    tag: ''
+    type: string
+    value: Are you sure? It only takes 3 minutes.
+-   io: output
+    key: msg_exit
+    language: ar
+    tag: ''
+    type: string
+    value: إنهاء المحادثة
+-   io: output
+    key: msg_exit
+    language: en
+    tag: ''
+    type: string
+    value: Exit Chat
+-   io: output
+    key: msg_glad_you_asked
+    language: ar
+    tag: ''
+    type: string
+    value: يسرني أنك سألتني! هل تسمح لي بأن أطرح عليك بعض الأسئلة لتساعدني على التعرف
+        على شخصيتك في القيادة لأقترح أفضل طراز يلائمك؟
+-   io: output
+    key: msg_glad_you_asked
+    language: en
+    tag: ''
+    type: string
+    value: Glad you asked. I have a few questions which will help me understand your
+        driving personality and recommend the best model for you. Ready to start?
+-   io: output
+    key: msg_start
+    language: ar
+    tag: ''
+    type: string
+    value: اطرح الأسئلة
+-   io: output
+    key: msg_start
+    language: en
+    tag: ''
+    type: string
+    value: Start Questions
+-   io: output
+    key: msg_suggest_or_select
+    language: ar
+    tag: ''
+    type: string
+    value: بإمكاني أن أساعدك على اختيار طراز يلائمك أو هل تفضل أن تقوم بالاختيار بنفسك؟
+-   io: output
+    key: msg_suggest_or_select
+    language: en
+    tag: ''
+    type: string
+    value: I can suggest a model for you or would you prefer to select one from our
+        ranges?
+-   io: output
+    key: msg_suggest_or_select_retry
+    language: ar
+    tag: ''
+    type: string
+    value: لنبحث معًا عن سيارة تلائم شخصيتك المتفردة. بإمكاني أن أساعدك على اختيار
+        طراز يلائمك أو هل تفضل أن تقوم بالاختيار بنفسك؟
+-   io: output
+    key: msg_suggest_or_select_retry
+    language: en
+    tag: ''
+    type: string
+    value: Let's try and find a car that truly reflects your personality. I can suggest
+        a model for you or would you prefer to select one from our ranges?

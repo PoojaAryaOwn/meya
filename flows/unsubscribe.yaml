@@ -1,0 +1,18 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: unsubscribe
+name: unsubscribe
+states:
+    set_unsubscribe:
+        component: meya.set
+        properties:
+            key: usr_subscription
+            value: unsub
+            scope: flow
+    subscribe_in_db:
+        component: subscribe_to_alerts
+    notification:
+        component: meya.text
+        properties:
+            text: '{{ cms.other.msg_unsubscribed }}'

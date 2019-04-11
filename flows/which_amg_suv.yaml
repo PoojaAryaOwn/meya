@@ -1,0 +1,39 @@
+states:
+    which_suv_first:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_amg.suv_msg }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.everyday }}'
+                  action: goto_everyday
+                - text: '{{ cms.general.weekend }}'
+                  action: goto_weekend
+        transitions:
+            goto_everyday: which_amg_suv_everyday
+            goto_weekend: which_amg_suv_weekend
+    which_amg_suv_everyday:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_amg.suv_everyday_msg }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.luxurious }}'
+                  flow: recommend_amg_suv_g_class
+                - text: '{{ cms.general.sporty }}'
+                  flow: recommend_amg_suv_gle
+                - text: '{{ cms.general.practical }}'
+                  flow: recommend_amg_suv_gle_coupe
+    which_amg_suv_weekend:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_amg.suv_weekend_msg }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.luxurious }}'
+                  flow: recommend_amg_suv_g_class
+                - text: '{{ cms.general.practical }}'
+                  flow: recommend_amg_suv_gle_coupe

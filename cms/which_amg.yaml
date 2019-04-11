@@ -1,0 +1,347 @@
+-   io: output
+    key: carousel_msg
+    language: ar
+    tag: ''
+    type: string
+    value: إذًا أنت من عشاق السرعة. أخبرني ما هو أكثر ما يثير حماسك في سيارات مرسيدس-AMG؟
+-   io: output
+    key: carousel_msg
+    language: en
+    tag: ''
+    type: string
+    value: So you like to live life in the fast lane. Tell me, what is it about Mercedes-AMG
+        cars that revs your engine?
+-   io: output
+    key: coupe_msg
+    language: ar
+    tag: ''
+    type: string
+    value: خيار ممتاز! فمجموعة سيارات مرسيدس-AMG كوبيه قادرة على تملك أحاسيس أي عاشق
+        للسيارات. هل تفضل سيارة كوبيه ذات بابين أم أربعة أبواب؟
+-   io: output
+    key: coupe_msg
+    language: en
+    tag: ''
+    type: string
+    value: Great choice. Our range of Mercedes-AMG Coupés would thrill any car enthusiast.
+        Tell me, do you prefer a two-door or four-door coupé?
+-   io: output
+    key: dreamcar_msg
+    language: ar
+    tag: ''
+    type: string
+    value: لا شيء يضاهي الشعور بهبوب الهواء من حولك فيما تنطلق بسرعات AMG الهائلة.
+        هل تفضل سيارة ذات مقعدين؟
+-   io: output
+    key: dreamcar_msg
+    language: en
+    tag: ''
+    type: string
+    value: There's no greater feeling than the wind in your hair, driving around at
+        AMG speeds. Is your dream car a two-seater?
+-   io: output
+    key: dreamcar_no
+    language: ar
+    tag: ''
+    type: string
+    value: شكرًا {{ user.first_name }} لاستجابتك. أي هذه الصفات تعبر عن شخصيتك وخبرتك
+        في القيادة؟
+-   io: output
+    key: dreamcar_no
+    language: en
+    tag: ''
+    type: string
+    value: Good to know, {{ user.first_name }}. Which of the following best suits
+        your personality and driving preference?
+-   io: output
+    key: dreamcar_yes
+    language: ar
+    tag: ''
+    type: string
+    value: 'مع كل إجابة نقترب أكثر من اكتشاف سيارة أحلامك. اخبرني ما الأهم بالنسبة
+        لك: المكانة الراقية التي تدل عليها سيارتك أم ما توحي به من الانطلاق بروح الشباب؟'
+-   io: output
+    key: dreamcar_yes
+    language: en
+    tag: ''
+    type: string
+    value: You're getting closer to your dream car with every answer. What's more
+        important to you, the status an iconic car gives, or the youthful spirit of
+        the drive?
+-   io: output
+    key: recommend_coupe_c_class
+    language: ar
+    tag: ''
+    type: string
+    value: سيارة مرسيدس-AMG الفئة-C هي مثال لحرية الانطلاق. تجول عبر طرقات المدينة
+        في سيارة صممت لتخطف الأنظار. إذا كنت تبحث عن القوة المتميزة فهذه هي السيارة
+        الأمثل لك.
+-   io: output
+    key: recommend_coupe_c_class
+    language: en
+    tag: ''
+    type: string
+    value: The Mercedes-AMG C-Class doesn't just drive, it soars. Glide through the
+        city streets in a machine built to stand out. If you seek agile excellence,
+        then this is the model for you.
+-   io: output
+    key: recommend_coupe_cla
+    language: ar
+    tag: ''
+    type: string
+    value: استمتع بتجربة قيادة الكوبيه الرياضية دون مساومة على الرفاهية أو الرحابة.
+        سيارة CLA من مرسيدس-AMG هي السيارة المثالية لك.
+-   io: output
+    key: recommend_coupe_cla
+    language: en
+    tag: ''
+    type: string
+    value: Revel in the sportiness of a coupé without ever compromising comfort and
+        space. The Mercedes-AMG CLA is the perfect pick for you.
+-   io: output
+    key: recommend_dreamcar_c_class
+    language: ar
+    tag: ''
+    type: string
+    value: اكتشف المعنى الحقيقي للقوة والأداء على متن مرسيدس-AMG الفئة-C والمقترنة
+        بسقف كابريوليه القابل للفتح. هل أنت مستعد للقيام بجولة؟
+-   io: output
+    key: recommend_dreamcar_c_class
+    language: en
+    tag: ''
+    type: string
+    value: Discover the meaning of power and performance from behind the wheel of
+        the Mercedes-AMG C-Class, all with the added benefit of a Cabriolet drop top.
+        Ready to go for a ride?
+-   io: output
+    key: recommend_dreamcar_s_class
+    language: ar
+    tag: ''
+    type: string
+    value: مرسيدس-AMG الفئة-S هي السيارة التي ستلبي رغبتك، بشموخ بمكانتها التي لا
+        تضاهى، ومتعة قيادتها الاستثنائية. إذا كنت تتطلع للأفضل بلا منازع فهذه هي السيارة
+        التي تليق بك.
+-   io: output
+    key: recommend_dreamcar_s_class
+    language: en
+    tag: ''
+    type: string
+    value: The Mercedes-AMG S-Class Cabriolet is what you need. This flagship car
+        stands in a league of its own, raising the bar wherever it drives. If you
+        crave the best, then this is the car that knows how to hit the spot.
+-   io: output
+    key: recommend_dreamcar_sl
+    language: ar
+    tag: ''
+    type: string
+    value: إنها سيارة تخطف الأنظار بكل جدارة. تملّك الطريق واترك وراءك انطباعًا لا
+        ينسى على متن سيارة SL من مرسيدس-AMG فهي أيقونة لا يختلف عليها رقيها وتفوقها
+        أحد.
+-   io: output
+    key: recommend_dreamcar_sl
+    language: en
+    tag: ''
+    type: string
+    value: This car knows how to turn heads. Own the road and make an unforgettable
+        impression with the undeniably iconic, and irrefutably thrilling, Mercedes-AMG
+        SL.
+-   io: output
+    key: recommend_dreamcar_slc
+    language: ar
+    tag: ''
+    type: string
+    value: وراء تصميمها الأنيق تكمن سيارة جبارة على الطرقات بروح لا تهاب المغامرة
+        لتأجج شغفك بالانطلاق. تأهّب، فسيارة SLC من مرسيدس-AMG تدعوك لتمسك بزمامها.
+-   io: output
+    key: recommend_dreamcar_slc
+    language: en
+    tag: ''
+    type: string
+    value: Don't be fooled by its elegant design, this car is a monster on the roads
+        with an adventurous spirit that'll ignite your passion for the roads. Buckle
+        up, the Mercedes-AMG SLC is calling your name.
+-   io: output
+    key: recommend_sedan_a_class
+    language: ar
+    tag: ''
+    type: string
+    value: تصميم متميز بالأناقة الرياضية المعززة بقوة التحمل، تلك هي مرسيدس-AMG الفئة-A،
+        ويبدو أنها السيارة المثالية لك. هل أنت مستعد لتختبر قيادتها؟
+-   io: output
+    key: recommend_sedan_a_class
+    language: en
+    tag: ''
+    type: string
+    value: Sleek and distinct, sporty and agile, the Mercedes-AMG A-Class sounds like
+        the perfect car for you. Are you ready to take the wheel?
+-   io: output
+    key: recommend_sedan_c_class
+    language: ar
+    tag: ''
+    type: string
+    value: إنها نقطة التقاء الأداء الرياضي الذي لا يضاهى بمميزات الراحة العملية. مرسيدس-AMG
+        الفئة-C هي السيارة الأمثل بالنسبة لك. هل أنت مستعد لتأخذها في جولة؟
+-   io: output
+    key: recommend_sedan_c_class
+    language: en
+    tag: ''
+    type: string
+    value: Unrivalled sports performance meets practical and experience enriching
+        features. The Mercedes-AMG C-Class is the car you need. Ready to take it for
+        a spin?
+-   io: output
+    key: recommend_sedan_e_class
+    language: ar
+    tag: ''
+    type: string
+    value: لأنك تبحث عن الفخامة الرياضية في أقصى صورها، فإن مرسيدس-AMG الفئة-E هي
+        الأمثل بالنسبة لك. لا شك أنك ستقع في حبها مع أول منعطف. هل أنت مستعد لتجربة
+        قيادة لا تنسى؟
+-   io: output
+    key: recommend_sedan_e_class
+    language: en
+    tag: ''
+    type: string
+    value: You're looking for the epitome of sporty luxuriousness, making the Mercedes-AMG
+        E-Class the perfect car for you. It's love at first touch when you get your
+        hands around this steering wheel. Are you ready for an unforgettable ride?
+-   io: output
+    key: recommend_sedan_s_class
+    language: ar
+    tag: ''
+    type: string
+    value: لأنك تبحث عن سيارة لا تساوم على الفخامة أو الأداء فسيارة مرسيدس-AMG الفئة-S
+        هي الأمثل بالنسبة لك. فهي سيارة تعيد تعريف معايير الرفاهية والتطوير في كل
+        تفاصيلها.
+-   io: output
+    key: recommend_sedan_s_class
+    language: en
+    tag: ''
+    type: string
+    value: You're looking for a car that refuses to compromise on luxury and performance.
+        You're looking for the Mercedes-AMG S-Class, setting new standards in comfort
+        and innovation across the board.
+-   io: output
+    key: recommend_suv_g_class
+    language: ar
+    tag: ''
+    type: string
+    value: صممت مرسيدس-بنز الفئة-G للمغامرين في العصر الحديث. فهي أكثر من مجرد سيارة،
+        إنها رفيقتك في اكتشاف آفاق جديدة من الإثارة، والسيارة المثلى للانطلاق حيثما
+        شئت، سواءً على الطرق الممهدة أو الوعرة.
+-   io: output
+    key: recommend_suv_g_class
+    language: en
+    tag: ''
+    type: string
+    value: Made for the modern adventurer, this is more than just a car, it's your
+        partner in the pursuit of new thrills. The Mercedes-AMG G-Class is the perfect
+        match to take your journey anywhere; both on and off-road.
+-   io: output
+    key: recommend_suv_gle
+    language: ar
+    tag: ''
+    type: string
+    value: كل يوم ينطوي على انطلاقة مغايرة على متن سيارة GLE من مرسيدس-AMG. اكتشف
+        سيارة تجاري شخصيتك بديناميكيتها وقوة حضورها حيثما توجهت.
+-   io: output
+    key: recommend_suv_gle
+    language: en
+    tag: ''
+    type: string
+    value: Everyday is an opportunity for new thrills from within the Mercedes-AMG
+        GLE. Discover a car that's as dynamic and assertive as you are, that will
+        make you feel at home, whichever route you take.
+-   io: output
+    key: recommend_suv_gle_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: لمن يعشق القوة الممزوجة بالجمال، ننصح بهذه السيارة المغايرة بتميزها. سيارة
+        GLE من مرسيدس-AMG كوبيه بروعة تصميمها الجديد هي السيارة المثالية لك.
+-   io: output
+    key: recommend_suv_gle_coupe
+    language: en
+    tag: ''
+    type: string
+    value: For someone who enjoys both strength & splendour - we recommend a car that
+        is excitingly different. The Mercedes-AMG GLE Coupé, in it's new sensational
+        form, is your perfect match.
+-   io: output
+    key: sedan_luxurious_msg
+    language: ar
+    tag: ''
+    type: string
+    value: رائع! اخبرني هل تحب أن تقود السيارة بنفسك؟ أم تفضل الاسترخاء في المقعد
+        الخلفي؟
+-   io: output
+    key: sedan_luxurious_msg
+    language: en
+    tag: ''
+    type: string
+    value: Great to know. Tell me, do you prefer to take the wheel or take a backseat?
+-   io: output
+    key: sedan_msg
+    language: ar
+    tag: ''
+    type: string
+    value: شكرًا {{ user.first_name }}! أي هذه الصفات هي الأقرب إلى ميولك وشخصيتك؟
+-   io: output
+    key: sedan_msg
+    language: en
+    tag: ''
+    type: string
+    value: Thank you, {{ user.first_name }}. Which best suits your preference and
+        personality?
+-   io: output
+    key: sedan_sporty_msg
+    language: ar
+    tag: ''
+    type: string
+    value: مجموعة سيارات مرسيدس-AMG هي القمة في الأداء والمظهر الرياضي. هل تفضل قوة
+        التحمل أم المرونة العملية؟
+-   io: output
+    key: sedan_sporty_msg
+    language: en
+    tag: ''
+    type: string
+    value: Sporty is what our Mercedes-AMG range does best. Do you prefer practicality
+        or agile performance?
+-   io: output
+    key: suv_everyday_msg
+    language: ar
+    tag: ''
+    type: string
+    value: فلنحول تجربة قيادتك اليومية لتجربة أكثر متعة وإثارة. أي هذه الصفات هي الأقرب
+        إلى شخصيتك وميولك؟
+-   io: output
+    key: suv_everyday_msg
+    language: en
+    tag: ''
+    type: string
+    value: Then leave it to us to make your everyday drive even more thrilling. Which
+        of the following best suits your personality and preference?
+-   io: output
+    key: suv_msg
+    language: ar
+    tag: ''
+    type: string
+    value: خيارة ممتاز! كم مرة تقود سيارتك بالعادة؟
+-   io: output
+    key: suv_msg
+    language: en
+    tag: ''
+    type: string
+    value: Great choice. How frequent of a driver are you?
+-   io: output
+    key: suv_weekend_msg
+    language: ar
+    tag: ''
+    type: string
+    value: رائع! أي هذه الصفات ترى أنها تعبر أكثر عن شخصيتك وميولك؟
+-   io: output
+    key: suv_weekend_msg
+    language: en
+    tag: ''
+    type: string
+    value: Great, Which of the following best suits your personality and preference?

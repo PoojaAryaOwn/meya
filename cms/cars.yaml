@@ -1,0 +1,216 @@
+-   io: output
+    key: text_c_class_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: حسّن تجربة قيادتك إلى أقصى حد.
+-   io: output
+    key: text_c_class_coupe
+    language: en
+    tag: ''
+    type: string
+    value: Upgrade your drive, take it to the extreme.
+-   io: output
+    key: text_c_class_sedan
+    language: ar
+    tag: ''
+    type: string
+    value: عصر جديد من التميز الهندسي.
+-   io: output
+    key: text_c_class_sedan
+    language: en
+    tag: ''
+    type: string
+    value: A new age of engineering excellence.
+-   io: output
+    key: text_e_class_cabriolet
+    language: ar
+    tag: ''
+    type: string
+    value: تجربة ثورية في فئة E.
+-   io: output
+    key: text_e_class_cabriolet
+    language: en
+    tag: ''
+    type: string
+    value: Revolutionising the E-Class experience.
+-   io: output
+    key: text_e_class_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: لكل باحث عن السرعة.
+-   io: output
+    key: text_e_class_coupe
+    language: en
+    tag: ''
+    type: string
+    value: For those with a true need for speed.
+-   io: output
+    key: text_e_class_sedan
+    language: ar
+    tag: ''
+    type: string
+    value: السرعة جوهر أدائها و تصميمها.
+-   io: output
+    key: text_e_class_sedan
+    language: en
+    tag: ''
+    type: string
+    value: Accelerated design and performance.
+-   io: output
+    key: text_gle
+    language: ar
+    tag: ''
+    type: string
+    value: اصعد لمقدمة الركب في GLE.
+-   io: output
+    key: text_gle
+    language: en
+    tag: ''
+    type: string
+    value: Take the lead in the GLE.
+-   io: output
+    key: text_gle_63_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: لا تقبل المقاييس، حددها.
+-   io: output
+    key: text_gle_63_coupe
+    language: en
+    tag: ''
+    type: string
+    value: Don't concede to limits, set them.
+-   io: output
+    key: text_s_class_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: قيادة في منتهى السلاسة و التميز.
+-   io: output
+    key: text_s_class_coupe
+    language: en
+    tag: ''
+    type: string
+    value: A truly dynamic and distinguished drive.
+-   io: output
+    key: text_s_class_sedan
+    language: ar
+    tag: ''
+    type: string
+    value: تتخطى كل المقاييس.
+-   io: output
+    key: text_s_class_sedan
+    language: en
+    tag: ''
+    type: string
+    value: Exceeding every expectation.
+-   io: output
+    key: title_c_class_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: C-Class Coupé
+-   io: output
+    key: title_c_class_coupe
+    language: en
+    tag: ''
+    type: string
+    value: C-Class Coupé
+-   io: output
+    key: title_c_class_sedan
+    language: ar
+    tag: ''
+    type: string
+    value: C-Class Sedan
+-   io: output
+    key: title_c_class_sedan
+    language: en
+    tag: ''
+    type: string
+    value: C-Class Sedan
+-   io: output
+    key: title_e_class_cabriolet
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة E - كابريوليه
+-   io: output
+    key: title_e_class_cabriolet
+    language: en
+    tag: ''
+    type: string
+    value: E-Class Cabriolet
+-   io: output
+    key: title_e_class_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة E - كوبيه
+-   io: output
+    key: title_e_class_coupe
+    language: en
+    tag: ''
+    type: string
+    value: E-Class Coupé
+-   io: output
+    key: title_e_class_sedan
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة E - سيدان
+-   io: output
+    key: title_e_class_sedan
+    language: en
+    tag: ''
+    type: string
+    value: E-Class Sedan
+-   io: output
+    key: title_gle
+    language: ar
+    tag: ''
+    type: string
+    value: GLE
+-   io: output
+    key: title_gle
+    language: en
+    tag: ''
+    type: string
+    value: GLE
+-   io: output
+    key: title_gle_63_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: GLE كوبيه
+-   io: output
+    key: title_gle_63_coupe
+    language: en
+    tag: ''
+    type: string
+    value: Mercedes-AMG GLE 63 Coupé
+-   io: output
+    key: title_s_class_coupe
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة S - كوبيه
+-   io: output
+    key: title_s_class_coupe
+    language: en
+    tag: ''
+    type: string
+    value: S-Class Coupé
+-   io: output
+    key: title_s_class_sedan
+    language: ar
+    tag: ''
+    type: string
+    value: الفئة S - سيدان
+-   io: output
+    key: title_s_class_sedan
+    language: en
+    tag: ''
+    type: string
+    value: S-Class Sedan

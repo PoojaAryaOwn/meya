@@ -1,0 +1,30 @@
+states:
+    welcome_state:
+        component: meya.text
+        properties:
+            text: '{{ cms.which_amg.carousel_msg }}'
+    card_state:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+                - title: '{{ cms.which_model.text_sedans }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-sedan.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_amg_sedan
+                - title: '{{ cms.which_model.text_coupes }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-coupe.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_amg_coupe
+                - title: '{{ cms.which_model.text_roads_cabs }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-road-cab.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_amg_dreamcar
+                - title: '{{ cms.which_model.text_suvs }}'
+                  image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/silhouette-suv.jpg?v=41325
+                  buttons:
+                    - text: '{{ cms.general.select }}'
+                      flow: which_amg_suv

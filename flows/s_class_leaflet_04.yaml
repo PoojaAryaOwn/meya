@@ -1,0 +1,22 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: sclasslf04
+name: s_class_leaflet_04
+states:
+    text_buttons_state:
+        component: meya.text_buttons
+        properties:
+            text: "{{ cms.s_class_leaflet.msg_step_inside }}"
+            output: button_click
+            buttons:
+                - text: "{{ cms.s_class_leaflet.btn_test_drive }}"
+                  url: "{{ cms.s_class_leaflet.link_test_drive }}"
+                  webview_height_ratio: full
+                  messenger_extensions: true
+                - text: "{{ cms.s_class_leaflet.btn_leave_message }}"
+                  action: next
+    next_state:
+        component: meya.text
+        properties:
+            text: "{{ cms.s_class_leaflet.msg_customer_service }}"

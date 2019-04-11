@@ -1,0 +1,37 @@
+states:
+    which_sedan_first:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_amg.sedan_msg }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.luxurious }}'
+                  action: goto_luxurious
+                - text: '{{ cms.general.sporty }}'
+                  action: goto_sporty
+        transitions:
+            goto_luxurious: which_amg_sedan_luxurious
+            goto_sporty: which_amg_sedan_sporty
+    which_amg_sedan_luxurious:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_amg.sedan_luxurious_msg }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.take_the_wheel }}'
+                  flow: recommend_amg_sedan_e_class
+                - text: '{{ cms.general.take_the_backseat }}'
+                  flow: recommend_amg_sedan_s_class
+    which_amg_sedan_sporty:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.which_amg.sedan_sporty_msg }}'
+            output: button_click
+            mode: quick_reply
+            buttons:
+                - text: '{{ cms.general.practical }}'
+                  flow: recommend_amg_sedan_c_class
+                - text: '{{ cms.general.agility }}'
+                  flow: recommend_amg_sedan_a_class

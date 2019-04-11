@@ -1,0 +1,71 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: explore_suv_crossover
+name: explore_suv_crossover
+states:
+    sedan_options:
+        component: meya.cards
+        properties:
+            output: button_click
+            elements:
+              - title: '{{ cms.explore_suv_crossover.title_gla }}'
+                text: '{{ cms.explore_suv_crossover.text_gla }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/gla_suv.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.suv_gla }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry
+              - title: '{{ cms.explore_suv_crossover.title_glc }}'
+                text: '{{ cms.explore_suv_crossover.text_glc }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/glc.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.suv_glc }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry
+              - title: '{{ cms.explore_suv_crossover.title_gle }}'
+                text: '{{ cms.explore_suv_crossover.text_gle }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/gle_group.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.suv_gle }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry
+              - title: '{{ cms.explore_suv_crossover.title_gle_coupe }}'
+                text: '{{ cms.explore_suv_crossover.text_gle_coupe }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/test-drive-form-cars/gle_coupe_suv.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.suv_gle_coupe }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry
+              - title: '{{ cms.explore_suv_crossover.title_gls }}'
+                text: '{{ cms.explore_suv_crossover.text_gls }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/cars/gls.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.suv_gls }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry
+              - title: '{{ cms.explore_suv_crossover.title_g_class }}'
+                text: '{{ cms.explore_suv_crossover.text_g_class }}'
+                image_url: https://s3-eu-west-1.amazonaws.com/mercedes-chatbot/mercedes/images/2019/cars/g_class_navigation_my19_940x509.jpg
+                buttons:
+                  - text: '{{ cms.general.book_a_test_drive }}'
+                    url: '{{ cms.links_test_drive_form.suv_g_class }}'
+                    webview_height_ratio: full
+                    messenger_extensions: true
+                  - text: '{{ cms.general.explore_more_models }}'
+                    flow: explore_our_models_retry

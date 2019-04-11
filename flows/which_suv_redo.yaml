@@ -1,0 +1,12 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: which_suv_redo
+name: which_suv_redo
+states:
+    great:
+        component: meya.text
+        properties:
+            text: '{{ cms.other.msg_lets_try_again }}'
+    start_questions:
+        flow: wsuv_freq

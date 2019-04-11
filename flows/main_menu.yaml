@@ -1,0 +1,31 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: menu
+states:
+    exist_language:
+        component: meya.conditional_exists
+        properties:
+            scope: flow
+            key: 'language'
+        transitions:
+            exists: set_language
+            notexists: main_menu
+    set_language:
+        component: meya.set
+        properties:
+            key: language
+            value: '{{ flow.language }}'
+            scope: user
+    main_menu:
+        component: meya.text_buttons
+        properties:
+            text: '{{ cms.main_menu.msg_introduction }}'
+            output: button_click
+            buttons:
+                - text: '{{ cms.main_menu.btn_book_test_drive }}'
+                  flow: explore_cars
+                - text: '{{ cms.main_menu.btn_explore_our_models }}'
+                  flow: explore_our_models
+                - text: '{{ cms.main_menu.btn_find_showrooms }}'
+                  flow: showrooms_01

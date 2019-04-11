@@ -1,0 +1,37 @@
+-   io: output
+    key: btn_contact_info
+    language: ar
+    tag: ''
+    type: string
+    value: اتصل بنا
+-   io: output
+    key: btn_contact_info
+    language: en
+    tag: ''
+    type: string
+    value: Contact Info
+-   io: output
+    key: btn_google_maps
+    language: ar
+    tag: ''
+    type: string
+    value: خرائط Google
+-   io: output
+    key: btn_google_maps
+    language: en
+    tag: ''
+    type: string
+    value: Google Maps
+-   io: output
+    key: msg_select_country
+    language: ar
+    tag: ''
+    type: string
+    value: يسرني أن أدلك على أقرب صالات عرضنا إليك. قل لي رجاءً أين موقعك؟
+-   io: output
+    key: msg_select_country
+    language: en
+    tag: ''
+    type: string
+    value: It would be my pleasure to redirect you to one of our showrooms. Tell me,
+        where are you presently located?
